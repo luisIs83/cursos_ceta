@@ -1,0 +1,11 @@
+CRITICAL - 2022-08-10 15:13:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\nuevo.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(46): view('visitantes/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->nuevo()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

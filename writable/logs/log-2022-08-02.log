@@ -1,0 +1,207 @@
+CRITICAL - 2022-08-02 22:08:43 --> Undefined array key ""
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(23): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 22:23:39 --> Undefined property: App\Controllers\Nombre_motivos::$visitantes
+#0 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-02 22:25:53 --> Undefined property: App\Controllers\Nombre_motivos::$visitantes
+#0 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-02 22:31:12 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-02 22:49:38 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 22:51:59 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:00:03 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:00:30 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:02:19 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:03:12 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:03:49 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:04:30 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:05:54 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:10:42 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:12:17 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:12:23 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-02 23:12:40 --> Undefined array key "nombre_mot"
+#0 C:\xampp\htdocs\visitas\app\Views\nombre_motivos\nombre_motivos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(27): view('nombre_motivos/...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-02 23:23:16 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «1»
+LINE 3: JOIN &quot;activo&quot; USING (1)
+                             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(23): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-02 23:23:16 --> pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «1»
+LINE 3: JOIN &quot;activo&quot; USING (1)
+                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(23): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->index()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

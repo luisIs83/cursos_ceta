@@ -1,0 +1,584 @@
+CRITICAL - 2022-08-15 00:03:05 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\visitantes.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/visi...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(36): view('visitantes/visi...')
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:06:04 --> Undefined variable $visitantes
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\visitantes.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/visi...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(36): view('visitantes/visi...')
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:07:25 --> Undefined variable $generos
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\nuevo.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(86): view('visitantes/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:08:04 --> Undefined variable $generos
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\nuevo.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(86): view('visitantes/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:09:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\nuevo.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('visitantes/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:09:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\nuevo.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('visitantes/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-15 00:10:18 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «67y»
+LINE 3: WHERE &quot;numero_identificador&quot; = '67y'
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(92): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 00:10:18 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «67y»
+LINE 3: WHERE &quot;numero_identificador&quot; = '67y'
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(92): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-08-15 00:10:54 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «ssss»
+LINE 3: WHERE &quot;numero_identificador&quot; = 'ssss'
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(92): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 00:10:54 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «ssss»
+LINE 3: WHERE &quot;numero_identificador&quot; = 'ssss'
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(92): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-08-15 00:13:47 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «sss»
+LINE 3: WHERE &quot;numero_identificador&quot; = 'sss'
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(91): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 00:13:47 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «sss»
+LINE 3: WHERE &quot;numero_identificador&quot; = 'sss'
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(91): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 00:13:58 --> Undefined variable $visitantes
+#0 C:\xampp\htdocs\visitas\app\Views\visitantes\nuevo.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('visitantes/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(54): view('visitantes/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->nuevo()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-15 00:14:28 --> ErrorException: pg_query(): Query failed: ERROR:  el valor «89797090808» está fuera de rango para el tipo integer
+LINE 3: WHERE &quot;numero_identificador&quot; = '89797090808'
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(91): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 00:14:28 --> pg_query(): Query failed: ERROR:  el valor «89797090808» está fuera de rango para el tipo integer
+LINE 3: WHERE &quot;numero_identificador&quot; = '89797090808'
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(91): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 00:20:16 --> Undefined variable $motivos
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(97): view('control_visitas...')
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:27:30 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('control_visitas...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:28:04 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('control_visitas...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:28:47 --> Undefined array key "apellido_paterno"
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('control_visitas...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:28:55 --> Undefined array key "id"
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('control_visitas...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 00:29:21 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(99): view('control_visitas...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-15 02:08:45 --> Call to a member function fetch_assoc() on array
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:10:27 --> Call to a member function row_array() on array
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:10:30 --> Call to a member function row_array() on array
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:10:32 --> Call to a member function row_array() on array
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:13:08 --> Call to a member function row() on array
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:27:51 --> Too few arguments to function App\Controllers\Control_visitas::obtenerNombres(), 0 passed in C:\xampp\htdocs\visitas\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:27:54 --> Too few arguments to function App\Controllers\Control_visitas::obtenerNombres(), 0 passed in C:\xampp\htdocs\visitas\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-15 02:30:50 --> Undefined property: App\Controllers\Control_visitas::$input
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 02:30:53 --> Undefined property: App\Controllers\Control_visitas::$input
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 02:30:55 --> Undefined property: App\Controllers\Control_visitas::$input
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 02:34:26 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-15 02:34:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-15 02:36:17 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 101)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 02:36:21 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 101)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->obtenerNombres()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-15 02:54:34 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «ihinkk»
+LINE 3: WHERE &quot;numero_identificador&quot; = 'ihinkk'
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(90): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 02:54:34 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «ihinkk»
+LINE 3: WHERE &quot;numero_identificador&quot; = 'ihinkk'
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(90): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-08-15 02:56:44 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 3: WHERE &quot;numero_identificador&quot; = ''
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(90): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 02:56:44 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 3: WHERE &quot;numero_identificador&quot; = ''
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(90): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-08-15 02:56:48 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 3: WHERE &quot;numero_identificador&quot; = ''
+                                       ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(90): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 02:56:48 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 3: WHERE &quot;numero_identificador&quot; = ''
+                                       ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(90): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->buscar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-15 18:10:17 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:10:54 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:12:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:12:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:12:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:12:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:12:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:12:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:13:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:13:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:14:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-08-15 18:14:44 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\visitas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\visitas\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-08-15 12:21:39 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar el menú»
+LINE 1: ...a&quot;) VALUES ('45', 'luis', 'sal', 'fdh', '0', '0', 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(67): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-15 12:21:39 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «control_visitas» viola la llave foránea «fk_nombre_mot»
+DETAIL:  La llave (fk_nombre_mot)=(0) no está presente en la tabla «nombre_motivos». in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(74): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-15 12:56:57 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...mbre_motivos&quot; (&quot;id_motivo&quot;, &quot;nombre_mot&quot;) VALUES ('Abrir par...
+                                                             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(51): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

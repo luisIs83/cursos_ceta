@@ -1,0 +1,162 @@
+CRITICAL - 2023-11-14 11:29:12 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 12:32:27 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 12:34:01 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 12:36:39 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes/grafic...')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes/grafic...')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 12:37:01 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes/grafic...')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes/grafic...')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 12:37:21 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(57): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 14:11:10 --> Undefined variable $data
+#0 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 14:11:24 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\graficos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(57): view('reportes/grafic...')
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 14:26:07 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\graficos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...')
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 14:27:34 --> syntax error, unexpected token "=>", expecting "]"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes/grafic...')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes/grafic...')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 14:28:15 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes/grafic...')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes/grafic...')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 14:28:33 --> syntax error, unexpected token "=>"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes/grafic...')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes/grafic...')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-14 14:48:09 --> Undefined variable $dato
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\graficos.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 14:48:48 --> syntax error, unexpected token "as"
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-14 14:49:11 --> syntax error, unexpected token "as"
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-14 14:50:15 --> Undefined array key "nom_curso"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\graficos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 14:52:04 --> Undefined array key "nom_curso"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\graficos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 14:53:27 --> Undefined variable $dato
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\graficos.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(58): view('reportes/grafic...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->graficos()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

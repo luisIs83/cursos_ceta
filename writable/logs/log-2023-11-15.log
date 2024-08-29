@@ -1,0 +1,21 @@
+CRITICAL - 2023-11-15 00:51:14 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-15 00:51:23 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-15 00:51:25 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

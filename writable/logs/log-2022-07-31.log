@@ -1,0 +1,54 @@
+CRITICAL - 2022-07-31 00:32:06 --> Invalid file: nombre_motivos/nuevo.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nombre_motivos/...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(41): view('nombre_motivos/...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->nuevo()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 00:32:12 --> Invalid file: nombre_motivos/eliminados.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nombre_motivos/...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(33): view('nombre_motivos/...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->eliminados()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 00:32:19 --> Invalid file: nombre_motivos/editar.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nombre_motivos/...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(56): view('nombre_motivos/...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->editar('1')
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 00:32:37 --> Invalid file: nombre_motivos/eliminados.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nombre_motivos/...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(33): view('nombre_motivos/...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->eliminados()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 11:26:39 --> Invalid file: nombre_motivos/nuevo.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nombre_motivos/...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(41): view('nombre_motivos/...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->nuevo()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 11:26:39 --> Invalid file: nombre_motivos/eliminados.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nombre_motivos/...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('nombre_motivos/...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Nombre_motivos.php(33): view('nombre_motivos/...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Nombre_motivos->eliminados()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nombre_motivos))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

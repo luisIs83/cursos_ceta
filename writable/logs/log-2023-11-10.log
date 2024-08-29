@@ -1,0 +1,29 @@
+CRITICAL - 2023-11-10 13:13:51 --> Undefined variable $validation
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\carreras\nuevo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('carreras/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Carreras.php(41): view('carreras/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Carreras->nuevo()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carreras))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 13:15:47 --> Undefined variable $validation
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\carreras\nuevo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('carreras/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Carreras.php(41): view('carreras/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Carreras->nuevo()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carreras))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-10 13:33:44 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('carreras/nuevo')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('carreras/nuevo')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

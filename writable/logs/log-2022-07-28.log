@@ -1,0 +1,210 @@
+ERROR - 2022-07-28 00:10:02 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-28 00:10:02 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\visitas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `vi...', 0)
+#1 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-28 00:16:11 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-28 00:16:11 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\visitas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `vi...', 0)
+#1 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-28 00:18:56 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-28 00:18:56 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\visitas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `vi...', 0)
+#1 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-28 00:23:44 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-28 00:23:44 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\visitas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `vi...', 0)
+#1 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-28 17:23:36 --> Class "CodeIgniter\Database\Postgres\Connection" not found
+#0 C:\xampp\htdocs\visitas\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('Postgres', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\visitas\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\visitas\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(18): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(809): App\Controllers\Visitantes->__construct()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 17:31:11 --> Class "CodeIgniter\Database\Postgres\Connection" not found
+#0 C:\xampp\htdocs\visitas\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('Postgres', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\visitas\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\visitas\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(18): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(809): App\Controllers\Visitantes->__construct()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 17:31:14 --> Class "CodeIgniter\Database\Postgres\Connection" not found
+#0 C:\xampp\htdocs\visitas\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('Postgres', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\visitas\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\visitas\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(18): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(809): App\Controllers\Visitantes->__construct()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 17:41:59 --> Class "CodeIgniter\Database\pdo_pgsql\Connection" not found
+#0 C:\xampp\htdocs\visitas\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo_pgsql', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\visitas\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\visitas\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(18): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(809): App\Controllers\Visitantes->__construct()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-28 17:48:10 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2022-07-28 17:48:10 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 17:54:24 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\visitas\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\visitas\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(18): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(809): App\Controllers\Visitantes->__construct()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-28 17:55:19 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2022-07-28 17:55:19 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-28 17:56:43 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2022-07-28 17:56:43 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-28 17:56:45 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2022-07-28 17:56:45 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-28 17:57:54 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  la autentificaci�n password fall� para el usuario �postgres�
+CRITICAL - 2022-07-28 17:57:54 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  la autentificaci�n password fall� para el usuario �postgres�
+#0 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-28 17:58:51 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitante»
+LINE 2: FROM &quot;visitante&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-28 17:58:51 --> pg_query(): Query failed: ERROR:  no existe la relación «visitante»
+LINE 2: FROM &quot;visitante&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(27): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->index()
+#9 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

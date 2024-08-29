@@ -1,0 +1,39 @@
+CRITICAL - 2023-10-31 00:44:58 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(44): view('reportes/report...')
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 00:48:38 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(44): view('reportes/report...')
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 00:48:42 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(44): view('reportes/report...')
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 00:52:12 --> Class "App\Controllers\CarreraModel" not found
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(809): App\Controllers\Reportes->__construct()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

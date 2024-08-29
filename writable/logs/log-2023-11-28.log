@@ -1,0 +1,428 @@
+CRITICAL - 2023-11-28 11:21:26 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\usuarios\nuevo_rol_usuario.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo_...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(195): view('usuarios/nuevo_...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 11:22:07 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\carreras\carreras.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('carreras/carrer...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(195): view('carreras/carrer...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 11:22:57 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\carreras\eliminados.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('carreras/elimin...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(195): view('carreras/elimin...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 11:23:42 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\carreras\carreras.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('/carreras/carre...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(195): view('/carreras/carre...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 11:24:20 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\carreras\nuevo.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('/carreras/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(195): view('/carreras/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 11:24:46 --> Invalid file: /carreras.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/carreras.php')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('/carreras', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(195): view('/carreras', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-28 11:28:08 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-28 11:28:09 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-28 11:28:13 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-28 12:06:24 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-28 12:09:08 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-28 12:23:34 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-28 15:12:29 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «usuario»
+LINE 3: WHERE &quot;usuario&quot; = '19831116'
+              ^
+HINT:  Probablemente quiera hacer referencia a la columna «usuarios.id_usuario». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('19831116', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '19831116', Array, Array)
+#8 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(140): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-11-28 15:12:29 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('19831116', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '19831116', Array, Array)
+#2 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(140): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-28 15:18:26 --> Undefined variable $hash
+#0 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-11-28 15:19:07 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «usuarios» viola la llave foránea «fk_genero»
+DETAIL:  La llave (cat_genero)=(0) no está presente en la tabla «genero». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(142): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 15:30:16 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «usuarios» viola la llave foránea «fk_genero»
+DETAIL:  La llave (cat_genero)=(0) no está presente en la tabla «genero». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(142): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 15:30:16 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_nom_curso»
+DETAIL:  La llave (fk_nom_curso)=(0) no está presente en la tabla «cursos». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(169): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-11-28 15:31:15 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «usuarios» viola la llave foránea «fk_genero»
+DETAIL:  La llave (cat_genero)=(0) no está presente en la tabla «genero». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(142): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 15:31:15 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_nom_curso»
+DETAIL:  La llave (fk_nom_curso)=(0) no está presente en la tabla «cursos». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(169): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-11-28 15:43:07 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «usuarios» viola la llave foránea «fk_genero»
+DETAIL:  La llave (cat_genero)=(0) no está presente en la tabla «genero». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(142): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 16:13:24 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «usuario»
+LINE 3: WHERE &quot;usuario&quot; = '19831116'
+              ^
+HINT:  Probablemente quiera hacer referencia a la columna «usuarios.id_usuario». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('19831116', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '19831116', Array, Array)
+#8 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(209): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-11-28 16:13:24 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('19831116', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '19831116', Array, Array)
+#2 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(209): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-28 16:28:45 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/nuevo')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/nuevo')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-11-28 16:44:56 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(prueba@gmail.com). in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(144): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 16:46:44 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(prueba@gmail.com). in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(144): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 16:48:11 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(prueba@gmail.com). in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(144): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 16:51:49 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(prueba@gmail.com). in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(144): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 16:52:04 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «usuarios» viola la llave foránea «fk_genero»
+DETAIL:  La llave (cat_genero)=(0) no está presente en la tabla «genero». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(144): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 16:52:49 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «usuarios» viola la llave foránea «fk_genero»
+DETAIL:  La llave (cat_genero)=(0) no está presente en la tabla «genero». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(144): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-11-28 21:54:41 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «usuario»
+LINE 3: WHERE &quot;usuario&quot; = '19831116'
+              ^
+HINT:  Probablemente quiera hacer referencia a la columna «usuarios.id_usuario». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('19831116', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '19831116', Array, Array)
+#8 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(140): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-11-28 21:54:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('19831116', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '19831116', Array, Array)
+#2 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(140): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

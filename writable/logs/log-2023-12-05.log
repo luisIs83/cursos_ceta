@@ -1,0 +1,187 @@
+ERROR - 2023-12-05 09:47:37 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «usuario»
+LINE 3: WHERE &quot;usuario&quot; = '302320679'
+              ^
+HINT:  Probablemente quiera hacer referencia a la columna «usuarios.id_usuario». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '302320679', Array, Array)
+#8 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(212): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-12-05 09:47:37 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\cursos_ceta\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '302320679', Array, Array)
+#2 C:\xampp\htdocs\cursos_ceta\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(212): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-05 09:52:18 --> Undefined variable $numero
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\usuarios\nuevo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(134): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 09:57:33 --> Undefined variable $numero
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\usuarios\nuevo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(134): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 09:57:39 --> Undefined variable $numero
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\usuarios\nuevo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(134): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 11:18:58 --> Undefined variable $hash
+#0 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-05 11:27:15 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\relacion\relacion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(133): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 12:13:44 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\relacion\relacion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(133): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 12:50:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\relacion\relacion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(133): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-05 13:37:47 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(100) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(58): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-12-05 13:38:11 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(100) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(58): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-12-05 13:49:48 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(100) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(58): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-12-05 14:22:35 --> sort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\usuarios\nuevo.php(135): sort(NULL)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(135): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 14:34:36 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\relacion\relacion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(133): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-05 14:36:10 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\relacion\relacion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(133): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,121 @@
+CRITICAL - 2023-10-23 21:35:35 --> Undefined array key "id_cursos"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\cursos\cursos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('cursos/cursos', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(23): view('cursos/cursos', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 21:36:06 --> Undefined array key "id_cursos"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\cursos\cursos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('cursos/cursos', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(23): view('cursos/cursos', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 21:44:02 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(48): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 21:46:29 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(48): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 21:55:30 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(48): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 21:55:57 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(48): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 22:00:26 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(47): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-23 22:25:52 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(47): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 22:27:22 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(47): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 22:40:26 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(47): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 22:41:33 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(47): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-23 22:42:48 --> There is no data to insert.
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\cursos_ceta\app\Controllers\Cursos.php(47): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Cursos->insertar()
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

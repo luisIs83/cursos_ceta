@@ -1,0 +1,885 @@
+CRITICAL - 2023-11-07 09:07:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 09:21:55 --> Undefined variable $nombre
+#0 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 09:23:17 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 09:24:00 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 09:24:02 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 09:24:02 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 09:24:02 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-11-07 09:42:28 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:42:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-11-07 09:52:17 --> Call to undefined method App\Models\ReportesModel::dofindAll
+#0 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\Model->__call('dofindAll', Array)
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-11-07 09:53:20 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:53:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 09:59:22 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:59:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 09:59:24 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:59:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 09:59:25 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:59:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 09:59:25 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:59:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 09:59:25 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:59:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 09:59:25 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte3»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte3&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 09:59:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:13:09 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:13:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:13:11 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:13:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:13:11 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:13:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:13:11 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:13:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:13:11 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:13:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:17:09 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:17:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:17:13 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:17:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:17:27 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:17:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:17:28 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:17:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:42:22 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:42:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:42:29 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:42:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:42:29 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:42:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:42:29 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:42:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-11-07 10:42:30 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «registro.fn_reporte5»
+LINE 2: FROM &quot;registro&quot;.&quot;fn_reporte5&quot;
+             ^ in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-07 10:42:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-11-07 10:43:34 --> Undefined variable $offset
+#0 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 10:44:03 --> Optional parameter $activo declared before required parameter $offset is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reportes')
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reportes')
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-07 10:45:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 11:23:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 11:27:06 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 11:33:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 12:30:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 15:18:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:03:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:04:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:04:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:04:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:04:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:04:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 16:05:48 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 16:06:41 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 16:06:41 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 16:06:41 --> Too few arguments to function App\Controllers\Reportes::index(), 0 passed in C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-07 16:07:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 20:32:27 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 20:32:58 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 20:33:19 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 20:33:22 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 23:41:34 --> Undefined array key "id_fn"
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 23:52:36 --> syntax error, unexpected token "[", expecting "," or ";"
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-07 23:53:41 --> syntax error, unexpected token "[", expecting "," or ";"
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-07 23:54:19 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-07 23:54:55 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-07 23:57:05 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\cursos_ceta\app\Views\reportes\reportes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\cursos_ceta\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('reportes/report...', Array, true)
+#4 C:\xampp\htdocs\cursos_ceta\app\Controllers\Reportes.php(49): view('reportes/report...', Array)
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Reportes->index()
+#6 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

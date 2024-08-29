@@ -1,0 +1,423 @@
+ERROR - 2023-10-30 11:35:54 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(112): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 11:35:54 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(121): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-30 16:52:51 --> Unmatched '}'
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(90): view('relacion/relaci...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-30 16:53:53 --> Unmatched '}'
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(90): view('relacion/relaci...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-30 19:52:44 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\cursos_ceta\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cursos_ceta\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#2 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(90): view('relacion/relaci...', Array)
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->buscar()
+#4 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-10-30 20:24:41 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(112): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 20:24:41 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(121): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 20:34:12 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(42): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 20:34:12 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(51): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 20:55:29 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(500) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(112): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 20:55:29 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(121): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 21:02:02 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(112): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 21:02:02 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(121): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 21:05:17 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(42): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 21:05:17 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(51): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 21:07:34 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(42): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 21:07:34 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(51): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 21:11:02 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(112): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 21:11:02 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Usuarios.php(121): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 21:13:18 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(42): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 21:13:18 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(51): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-10-30 21:14:39 --> ErrorException: pg_query(): Query failed: ERROR:  el valor es demasiado largo para el tipo character varying(20) in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(42): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-10-30 21:14:39 --> ErrorException: pg_query(): Query failed: ERROR:  inserción o actualización en la tabla «rel_tablas» viola la llave foránea «fk_opcionales»
+DETAIL:  La llave (fk_opcionales)=(0) no está presente en la tabla «opcionales». in C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\cursos_ceta\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\cursos_ceta\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\cursos_ceta\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\cursos_ceta\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\cursos_ceta\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\cursos_ceta\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\cursos_ceta\app\Controllers\Relacion.php(51): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(832): App\Controllers\Relacion->insertar()
+#11 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#12 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-10-30 21:34:41 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:55:16 --> syntax error, unexpected identifier "var_dump", expecting "function" or "const"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/buscar')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/buscar')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:55:51 --> syntax error, unexpected identifier "var_dump", expecting "function" or "const"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/buscar')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/buscar')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:55:58 --> syntax error, unexpected identifier "var_dump", expecting "function" or "const"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/buscar')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/buscar')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:56:02 --> syntax error, unexpected identifier "var_dump", expecting "function" or "const"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:56:03 --> syntax error, unexpected identifier "var_dump", expecting "function" or "const"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:58:22 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/buscar')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/buscar')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-30 23:59:02 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\cursos_ceta\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/buscar')
+#1 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/buscar')
+#2 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cursos_ceta\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cursos_ceta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

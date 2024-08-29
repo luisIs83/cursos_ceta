@@ -1,0 +1,62 @@
+CRITICAL - 2022-06-29 01:27:03 --> Class "App\Models\CategoriasModel" not found
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(809): App\Controllers\Categorias->__construct()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 01:30:03 --> Invalid file: categorias/categorias.php
+#0 C:\xampp\htdocs\visitas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categorias/cate...')
+#1 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('categorias/cate...', Array, true)
+#2 C:\xampp\htdocs\visitas\app\Controllers\Categorias.php(23): view('categorias/cate...', Array)
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Categorias->index()
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-29 22:03:14 --> Undefined variable $datos
+#0 C:\xampp\htdocs\visitas\app\Views\categorias\nuevo.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('categorias/nuev...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Categorias.php(31): view('categorias/nuev...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Categorias->nuevo()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 22:37:25 --> syntax error, unexpected token "=>", expecting ")"
+#0 C:\xampp\htdocs\visitas\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 22:49:30 --> Too few arguments to function App\Controllers\Categorias::editar(), 0 passed in C:\xampp\htdocs\visitas\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Categorias->editar()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 22:53:52 --> Too few arguments to function App\Controllers\Categorias::editar(), 0 passed in C:\xampp\htdocs\visitas\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Categorias->editar()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 23:07:07 --> Too few arguments to function App\Controllers\Categorias::editar(), 0 passed in C:\xampp\htdocs\visitas\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Categorias->editar()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 23:20:48 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\visitas\app\Views\categorias\editar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('categorias/edit...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Categorias.php(46): view('categorias/edit...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Categorias->editar('1')
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

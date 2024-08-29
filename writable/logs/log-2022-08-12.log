@@ -1,0 +1,612 @@
+CRITICAL - 2022-08-12 17:02:39 --> Undefined variable $motivos
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(30): view('control_visitas...', Array)
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 17:06:51 --> There is no data to insert.
+#0 C:\xampp\htdocs\visitas\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(56): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->insertar()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 17:07:49 --> There is no data to insert.
+#0 C:\xampp\htdocs\visitas\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(56): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->insertar()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-12 19:44:13 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ... &quot;id_cat_carrera_area&quot;) VALUES (NULL, NULL, NULL, '', NULL, ...
+                                                             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(64): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 19:44:13 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ... &quot;id_cat_carrera_area&quot;) VALUES (NULL, NULL, NULL, '', NULL, ...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(64): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 19:47:47 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ... &quot;id_cat_carrera_area&quot;) VALUES (NULL, NULL, NULL, '', NULL, ...
+                                                             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(64): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 19:47:47 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ... &quot;id_cat_carrera_area&quot;) VALUES (NULL, NULL, NULL, '', NULL, ...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(64): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 21:39:45 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_numero_identificador»
+DETAIL:  Ya existe la llave (numero_identificador)=(302320679). in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(68): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 21:39:45 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_numero_identificador»
+DETAIL:  Ya existe la llave (numero_identificador)=(302320679).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'INSERT INTO "vi...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "vi...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "vi...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "vi...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\visitas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(68): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 22:34:57 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 22:34:57 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 22:39:03 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'numero_identifi...', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 22:39:03 --> pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'numero_identifi...', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 22:40:40 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «numero_identificador»
+LINE 2: FROM &quot;numero_identificador&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'numero_identifi...', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 22:40:40 --> pg_query(): Query failed: ERROR:  no existe la relación «numero_identificador»
+LINE 2: FROM &quot;numero_identificador&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'numero_identifi...', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 22:41:34 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'numero_identifi...', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 22:41:34 --> pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'numero_identifi...', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 22:51:09 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 22:51:09 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 22:58:30 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320670', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320670', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 22:58:30 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320670', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320670', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:01:08 --> required|is_unique is not a valid rule.
+#0 C:\xampp\htdocs\visitas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|is_uni...')
+#1 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '9876383', Array, Array)
+#2 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 23:01:24 --> required|is_unique is not a valid rule.
+#0 C:\xampp\htdocs\visitas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|is_uni...')
+#1 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#2 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-12 23:02:40 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:02:40 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 23:03:41 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:03:41 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 23:04:05 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:04:05 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('302320679', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-08-12 23:04:44 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('777777777', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '777777777', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:04:44 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('777777777', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '777777777', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:11:36 --> required|is_unique is not a valid rule.
+#0 C:\xampp\htdocs\visitas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|is_uni...')
+#1 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '302320679', Array, Array)
+#2 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-12 23:12:13 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^ in C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('88888888', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '88888888', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:12:13 --> pg_query(): Query failed: ERROR:  no existe la relación «visitas»
+LINE 2: FROM &quot;visitas&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\visitas\system\Database\Postgre\Connection.php(135): pg_query(Object(PgSql\Connection), 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\visitas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\visitas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\visitas\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\visitas\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('88888888', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\visitas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('numero_identifi...', 'numero_identifi...', '88888888', Array, Array)
+#8 C:\xampp\htdocs\visitas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#11 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#12 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-12 23:29:01 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$upper
+#0 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 23:30:58 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getmxrr
+#0 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 23:31:36 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getmxrr
+#0 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 23:39:54 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$pg_Query
+#0 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 23:41:19 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\visitas\app\Controllers\Visitantes.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Visitantes->insertar()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visitantes))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

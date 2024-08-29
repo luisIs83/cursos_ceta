@@ -1,0 +1,125 @@
+CRITICAL - 2022-08-08 22:53:22 --> Undefined property: App\Controllers\Control_visitas::$visitantes
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 22:54:43 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 22:56:07 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 22:56:09 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 23:01:28 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 23:01:31 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 23:04:16 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:11:58 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:16:19 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:20:39 --> Undefined variable $nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Views\control_visitas\control_visitas.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\visitas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visitas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visitas\system\Common.php(1089): CodeIgniter\View\View->render('control_visitas...', Array, true)
+#4 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(30): view('control_visitas...')
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#7 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-08 23:24:52 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 23:25:18 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:26:17 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:26:21 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:27:10 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:34:43 --> Undefined property: App\Controllers\Control_visitas::$nombre_motivos
+#0 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#3 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 23:35:27 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->index()
+#1 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#2 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:49:09 --> There is no data to insert.
+#0 C:\xampp\htdocs\visitas\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\visitas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\visitas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\visitas\app\Controllers\Control_visitas.php(55): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\visitas\system\CodeIgniter.php(832): App\Controllers\Control_visitas->insertar()
+#5 C:\xampp\htdocs\visitas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control_visitas))
+#6 C:\xampp\htdocs\visitas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\visitas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

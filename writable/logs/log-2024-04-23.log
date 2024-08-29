@@ -1,0 +1,94 @@
+CRITICAL - 2024-04-23 16:00:30 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, null given, called in C:\xampp\htdocs\reportes_cursos\system\Controller.php on line 160
+#0 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(189): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-23 16:02:08 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, null given, called in C:\xampp\htdocs\reportes_cursos\system\Controller.php on line 160
+#0 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(189): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-23 16:30:14 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-23 16:30:24 --> Invalid file: usuarios/usuarios.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/usuari...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-23 17:31:36 --> Class "App\Models\Prof_cursosModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Prof_cursos->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-23 17:32:19 --> Class "App\Models\Prof_cursosModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Prof_cursos->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-23 17:32:20 --> Class "App\Models\Prof_cursosModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Prof_cursos->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-23 17:33:12 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-23 17:33:52 --> Invalid file: prof_cursos/prof_cursos.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prof_cursos/pro...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(33): view('prof_cursos/pro...', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-23 17:34:35 --> Invalid file: prof_cursos/prof_cursos.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prof_cursos/pro...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(33): view('prof_cursos/pro...', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-23 17:34:37 --> Invalid file: prof_cursos/prof_cursos.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prof_cursos/pro...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(33): view('prof_cursos/pro...', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-23 17:36:27 --> Invalid file: prof_cursos/nuevo.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prof_cursos/nue...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/nue...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(51): view('prof_cursos/nue...', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->nuevo()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

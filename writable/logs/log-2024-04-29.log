@@ -1,0 +1,849 @@
+CRITICAL - 2024-04-29 10:37:02 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\cursos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/cursos', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(35): view('cursos/cursos', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 10:48:49 --> Class "App\Models\RelacionModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Reportes->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 10:49:16 --> Class "App\Models\RelacionModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Reportes->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 11:07:46 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:07:54 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:08:28 --> Required parameter $id_usuarios follows optional parameter $activo
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-29 11:09:52 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:18:04 --> syntax error, unexpected token "protected"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:18:28 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:18:53 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:23:03 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:23:05 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:23:06 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:23:06 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:23:06 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:23:35 --> Class "App\Models\RelacionModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Reportes->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 11:26:21 --> Class "App\Controllers\RelacionModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Reportes->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 11:26:27 --> Class "App\Controllers\RelacionModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Reportes->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 11:27:11 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\usuarios\usuarios.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(82): view('usuarios/usuari...')
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 11:41:29 --> syntax error, unexpected token ";", expecting variable
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('prof_cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('prof_cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:43:00 --> Undefined array key "id"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\prof_cursos.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(35): view('prof_cursos/pro...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 11:43:24 --> Undefined array key "correo"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\prof_cursos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(35): view('prof_cursos/pro...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 11:43:34 --> Undefined array key "id"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\prof_cursos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(35): view('prof_cursos/pro...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 11:43:56 --> Undefined array key "id"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\prof_cursos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(35): view('prof_cursos/pro...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 11:45:27 --> Too few arguments to function App\Controllers\Cursos::editar(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 11:46:36 --> Too few arguments to function App\Controllers\Cursos::editar(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 11:46:40 --> Undefined array key "nom_rol"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\prof_cursos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/pro...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(35): view('prof_cursos/pro...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 11:55:08 --> syntax error, unexpected identifier "findAll"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('prof_cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('prof_cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:55:27 --> syntax error, unexpected identifier "findAll"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('prof_cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('prof_cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 11:56:25 --> Undefined property: App\Controllers\Prof_cursos::$prof_curso
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-04-29 11:58:22 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «id»
+LINE 3: WHERE &quot;id&quot; = '3'
+              ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #125, 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(84): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-29 11:58:22 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(84): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-04-29 12:00:04 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «id»
+LINE 3: WHERE &quot;id&quot; = '3'
+              ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #125, 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(84): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-29 12:00:04 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(84): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-29 12:01:01 --> Undefined array key "id"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/edi...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(87): view('prof_cursos/edi...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 12:01:48 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\edit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/edi...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(87): view('prof_cursos/edi...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 12:04:11 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\edit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/edi...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(87): view('prof_cursos/edi...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->editar('3')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 12:12:49 --> Undefined property: App\Controllers\Prof_cursos::$prof_curso
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->insertar()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 12:21:25 --> syntax error, unexpected token "=>"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('prof_cursos/nue...')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('prof_cursos/nue...')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 12:22:27 --> Undefined variable $roles
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\prof_cursos\nuevo.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('prof_cursos/nue...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Prof_cursos.php(56): view('prof_cursos/nue...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Prof_cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prof_cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 12:29:35 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\usuarios\usuarios.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(82): view('usuarios/usuari...')
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 12:31:50 --> Undefined variable $numero
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\usuarios\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(103): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-04-29 12:44:47 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #134, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(187): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-29 12:44:47 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(187): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-29 12:58:28 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('ususana', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'ususana', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-29 12:58:28 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('ususana', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'ususana', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-29 12:59:22 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-29 12:59:22 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-29 13:00:12 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('ususy', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'ususy', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-29 13:00:12 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('ususy', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'ususy', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-29 13:09:20 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuario', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-29 13:09:20 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuario', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(191): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-04-29 14:48:11 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\usuarios\usuarios.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(83): view('usuarios/usuari...')
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 15:46:57 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:02 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:03 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:03 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:03 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:04 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:04 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:04 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:04 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:04 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos/editar/5')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos/editar/5')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:49:53 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:50:02 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:50:06 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:53:31 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:53:42 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:53:43 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:54:57 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:55:35 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:55:37 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:55:38 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:59:17 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:59:19 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:59:20 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:59:20 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:59:20 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 15:59:20 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 16:00:52 --> Undefined variable $periodo
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(82): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('5')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 16:23:03 --> Invalid file: reportes/graficos.php
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reportes/grafic...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('reportes/grafic...', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Reportes.php(55): view('reportes/grafic...', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-29 16:25:00 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\reportes\repor_cursos.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('reportes/repor_...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Reportes.php(55): view('reportes/repor_...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-29 16:43:57 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Reportes.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 16:44:23 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:45:21 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:45:47 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:48:04 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:48:05 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:48:05 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:48:05 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:48:06 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:51:41 --> Too few arguments to function App\Controllers\Reportes::repor_cursos(), 0 passed in C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-29 16:51:58 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Reportes.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-29 16:52:43 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Reportes.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Reportes->repor_cursos()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
