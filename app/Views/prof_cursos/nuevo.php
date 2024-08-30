@@ -53,8 +53,8 @@
                     </div>
                 </div>
                 <br>
-                <a href="<?php echo base_url();?>/prof_cursos" class="btn btn-primary">Regresar</a>
-                <button type="submit" class="btn btn-success">Guardar</button>      
+                <a onclick="history.back()" class="btn btn-primary">Regresar</a>
+                <button type="submit" class="btn btn-success">Guardar</button>    
             </form>
         </div>
     </main>
