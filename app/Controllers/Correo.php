@@ -9,7 +9,7 @@ class Correo extends BaseController{
 		$email = \Config\Services::email();
 
         $email->setFrom('luis.saldivar19@gmail.com', 'Luis Angel Saldivar');
-        $email->setTo('luis_saldivar19@hotmail.com');
+        $email->setTo('tecnologia.estadistica@zaragoza.unam.mx');
         //$email->setCC('another@another-example.com');
         //$email->setBCC('them@their-example.com');
 
