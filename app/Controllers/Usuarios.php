@@ -39,41 +39,13 @@ class Usuarios extends BaseController
 
         $this->reglas = [
             'usuario' => [      
-                'rules' => 'required|is_unique[usuarios.usuario]',
-                'errors' => [
-                    'required' => 'El campo {field} es obligatorio.',
-                    'is_unique' => 'Ya existe un registro con el mismo usuario.'
-                ]
-            ],
-            'password' => [      
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo {field} es obligatorio.'
-                ]
-            ],
-            'repassword' => [      
-                'rules' => 'required|matches[password]',
-                'errors' => [
-                    'required' => 'El campo {field} es obligatorio.',
-                    'matches' => 'Las contraseñas no coinciden.'
-                ]
+            'rules' => 'required|is_unique[usuarios.usuario]',
+            'errors' => [
+                'required' => 'El campo {field} es obligatorio.',
+                'is_unique' => 'Ya existe un registro con el mismo usuario.'
             ]
-        ];
-
-        $this->reglasLogin = [
-            'usuario' => [      
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo {field} es obligatorio.'
-                ]
-            ],
-            'password' => [      
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo {field} es obligatorio.'
-                ]
-            ]
-        ];
+        ]
+    ];
 
     }
 
@@ -139,7 +111,11 @@ class Usuarios extends BaseController
 
     public function insertar()
     {
-            $this->usuarios->insert([
+        if ($this->request->getMethod() == "post" && $this->validate($this->reglas)) {
+
+        $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
+
+            $this->usuarios->save([
                 'usuario' => $this->request->getPost('usuario'),
                 'email' => $this->request->getPost('email'),
                 'ap_paterno' => $this->request->getPost('ap_paterno'),
@@ -171,14 +147,61 @@ class Usuarios extends BaseController
                 'fk_nom_curso' => $this->request->getPost('nombre_curso')
             ]);
 
+            $this->enviarCorreoConfirmacion($email, $nombre);
+
         return redirect()->to(base_url());
-        
+        } else {
+            $dependencias = $this->dependencias->where('activo', '1')->findAll();
+            $carreras = $this->carreras->where('activo', '1')->findAll();
+            $categorias = $this->categorias->where('activo', '1')->findAll();
+            $generos = $this->generos->where('activo', '1')->findAll();
+            $cursos = $this->cursos->where('activo', '1')->findAll();
+            $roles = $this->roles->where('activo', '1')->findAll();
+
+            $data = [
+                'dependencias' => $dependencias, 
+                'carreras' => $carreras,
+                'categorias' => $categorias, 
+                'generos' => $generos, 
+                'cursos' => $cursos,
+                'roles' => $roles 
+        ];
+        //$data = ['titulo' => 'Profesor', 'validation' => $this->validator];
         //echo view('header');
         echo view('usuarios/nuevo', $data);
         //echo view('footer');
-        
-        
+        }
     }
+
+    // Método para enviar el correo
+    private function enviarCorreoConfirmacion($email, $nombre)
+    {
+        // Cargar el servicio de email
+        $email = \Config\Services::email();
+
+        // Configurar los detalles del correo
+        $email->setTo($email);
+        $email->setFrom('luis.saldivar19@gmail.com', 'Cursos y talleres del CETA');
+        $email->setSubject('Confirmación de Registro');
+        
+        // El cuerpo del mensaje
+        $mensaje = "
+            <h2>Hola $nombre, gracias por registrarte</h2>
+            <p>Por favor, confirma tu correo haciendo clic en el siguiente enlace:</p>
+        ";
+        $email->setMessage($mensaje);
+
+        // Enviar el correo
+        /*if ($email->send()) {
+            // Opcionalmente puedes redirigir a una página de éxito o mostrar un mensaje
+            echo "Correo de confirmación enviado correctamente.";
+        } else {
+            // Mostrar errores en caso de fallo
+            $data = $email->printDebugger(['headers']);
+            print_r($data);
+        }*/
+    }
+
 
     public function login(){
 

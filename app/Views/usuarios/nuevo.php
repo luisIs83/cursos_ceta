@@ -30,43 +30,44 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="inputEmail">Número de trabajador o RFC</label>
-                                            <input class="form-control" id="usuario" type="text" name="usuario" style="" placeholder="nombre" disabled value="<?php echo $numero?>"/>  
-                                            <input hidden class="form-control" id="usuario" type="text" name="usuario" placeholder="nombre" value="<?php echo $numero?>" />     </div><br>
-                                        <div class="form-group">
-                                            <label for="email"><h7>Ingrese un correo válido<h7></label>
-                                            <input class="form-control" id="email" type="email" name="email" placeholder="email" autofocus  />
+                                            <label for="usuario"><h7>Ingrese RFC SIN HOMOCLAVE como el siguiente ejemplo: <h7></label>
+                                            <input class="form-control" id="usuario" type="text" name="usuario" placeholder="TOGM900603" autofocus  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label class="small mb-1" for="nombre"><h7>Favor de usar mayúsculas y minúsculas</h7></label>
-                                            <input class="form-control" id="nombre" type="text" name="nombre" style="" placeholder="Nombre"  />
+                                            <label for="email"><h7>Ingrese un correo válido:<h7></label>
+                                            <input class="form-control" id="email" type="email" name="email" placeholder="ejemplo@gmail.com" />
+                                            
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="nombre"><h7>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h7></label>
+                                            <input class="form-control" id="nombre" type="text" name="nombre" style="" placeholder="Sebastian"  />
                                             
                                         </div><br>
                                         
                                         <div class="form-group">
-                                            <label for="inputFirstName"><h7>Favor de usar mayúsculas y minúsculas</h7></label>
-                                            <input class="form-control" id="ap_paterno" type="text" name="ap_paterno" style="" placeholder="Apellido paterno"  />
+                                            <label for="ap_paterno"><h7>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h7></label>
+                                            <input class="form-control" id="ap_paterno" type="text" name="ap_paterno" style="" placeholder="Sánchez"  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="inputEmail"><h7>Favor de usar mayúsculas y minúsculas</h7></label>
-                                            <input class="form-control" id="ap_materno" type="text" name="ap_materno" style=""placeholder="Apellido materno"  />
+                                            <label for="ap_materno"><h7>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h7></label>
+                                            <input class="form-control" id="ap_materno" type="text" name="ap_materno" style=""placeholder="Rodríguez"  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="inputEmail"><h7>Teléfono celular<h7></label>
-                                            <input class="form-control" id="num_celular" type="numero" name="num_celular" placeholder="Número celular" maxlength="50"  />
+                                            <label for="num_celular"><h7>Teléfono celular:<h7></label>
+                                            <input class="form-control" id="num_celular" type="numero" name="num_celular" placeholder="5500112244" maxlength="50"  />
                                             
-                                        </div>
-                                        <!--<div class="form-floating mb-3">
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="password">Contraseña:</label>
                                             <input class="form-control" id="password" type="password" name="password" value="<?php //echo set_value('password') ?>" />
-                                            <label for="inputEmail">Contraseña</label>
-                                        </div>
-                                        <div class="form-floating mb-3">
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="repassword">Repite contraseña:</label>
                                             <input class="form-control" id="repassword" type="password" name="repassword" value="<?php //echo set_value('repassword') ?>" />
-                                            <label for="inputEmail">Repite contraseña</label>
-                                        </div>-->
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">

@@ -55,7 +55,7 @@
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="<?php echo base_url(); ?>/prof_cursos/nuevo">¿No tienes cuenta? Registrate aquí!</a></div>
+                                        <div class="small"><a href="<?php echo base_url(); ?>/usuarios/nuevo">¿No tienes cuenta? Registrate aquí!</a></div>
                                     </div>
                                 </div>
                             </div>

@@ -13,7 +13,12 @@ class Correo extends BaseController{
         //$email->setCC('another@another-example.com');
         //$email->setBCC('them@their-example.com');
 
-        $email->setSubject('Email Test');
+        $mensaje = "
+            <h2>Gracias por registrarte al curso </h2>
+
+        "
+
+        $email->setSubject('Confirmación de registro');
         $email->setMessage('Testing the email class.');
 
         if ($email->send()) {

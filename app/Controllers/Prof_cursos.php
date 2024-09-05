@@ -17,12 +17,15 @@ class Prof_cursos extends BaseController
         $this->usuarios = new Prof_cursosModel();
         $this->cursos = new CursosModel();
         $this->roles = new RolesModel();
+
         helper(['form']);
 
-        $this->reglas = ['usuario' => [      
-            'rules' => 'required',
+        $this->reglas = [
+            'usuario' => [      
+            'rules' => 'required|is_unique[usuarios.usuario]',
             'errors' => [
-                'required' => 'El campo "Nombre" es obligatorio.'
+                'required' => 'El campo {field} es obligatorio.',
+                'is_unique' => 'Ya existe un registro con el mismo usuario.'
             ]
         ]
     ];
@@ -43,18 +46,18 @@ public function eliminados($activo = '0')
     $prof_cursos = $this->usuarios->where('activo',$activo)->findAll();
     $data = ['titulo' => 'Categorias eliminadas', 'datos' => $prof_cursos];
 
-    echo view('header');
+    //echo view('header');
     echo view('prof_cursos/eliminados', $data);
-    echo view('footer');
+    //echo view('footer');
 }
 
 public function nuevo($activo = '1') 
 {
     $roles = $this->roles->where('activo', '1')->findAll();
     $data = ['titulo' => 'Agregar curso a Profesor', 'roles' => $roles];
-    echo view('header');
+    //echo view('header');
     echo view('prof_cursos/nuevo', $data);
-    echo view('footer');
+    //echo view('footer');
 }
 
 public function insertar()
@@ -71,14 +74,46 @@ public function insertar()
             'ap_materno' => $this->request->getPost('ap_materno'), 
             'email' => $this->request->getPost('correo'),
             'cat_rol' => $this->request->getPost('cat_rol')]);
+
+        $this->enviarCorreoConfirmacion($email, $nombre);
+        
         return redirect()->to(base_url().'/prof_cursos');
     } else {
         $data = ['titulo' => 'Profesor', 'validation' => $this->validator];
-        echo view('header');
+        //echo view('header');
         echo view('prof_cursos/nuevo', $data);
-        echo view('footer');
+        //echo view('footer');
     }
 } 
+
+// Método para enviar el correo
+    private function enviarCorreoConfirmacion($email, $nombre)
+    {
+        // Cargar el servicio de email
+        $email = \Config\Services::email();
+
+        // Configurar los detalles del correo
+        $email->setTo($email);
+        $email->setFrom('luis.saldivar19@gmail.com', 'Cursos y talleres del CETA');
+        $email->setSubject('Confirmación de Registro');
+        
+        // El cuerpo del mensaje
+        $mensaje = "
+            <h2>Hola $nombre, gracias por registrarte</h2>
+            <p>Por favor, confirma tu correo haciendo clic en el siguiente enlace:</p>
+        ";
+        $email->setMessage($mensaje);
+
+        // Enviar el correo
+        /*if ($email->send()) {
+            // Opcionalmente puedes redirigir a una página de éxito o mostrar un mensaje
+            echo "Correo de confirmación enviado correctamente.";
+        } else {
+            // Mostrar errores en caso de fallo
+            $data = $email->printDebugger(['headers']);
+            print_r($data);
+        }*/
+    }
 
 public function editar($id_user) 
 {
