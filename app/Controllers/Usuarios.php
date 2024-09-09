@@ -43,8 +43,36 @@ class Usuarios extends BaseController
             'errors' => [
                 'required' => 'El campo {field} es obligatorio.',
                 'is_unique' => 'Ya existe un registro con el mismo usuario.'
+                ]
+            ],
+            'password' => [      
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'El campo {field} es obligatorio.'
+                ]
+            ],
+            'repassword' => [      
+            'rules' => 'required|matches[password]',
+            'errors' => [
+                'required' => 'El campo {field} es obligatorio.',
+                'matches' => 'Las contraseñas no coinciden.'
+                ]
             ]
-        ]
+        ];
+
+        $this->reglasLogin = [
+            'usuario' => [
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'El campo {field} es obligatorio.'
+            ]
+        ],
+         'password' => [
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'El campo {field} es obligatorio.'
+            ]
+        ]   
     ];
 
     }
@@ -115,7 +143,7 @@ class Usuarios extends BaseController
 
         $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
 
-            $this->usuarios->save([
+            $this->usuarios->inser([
                 'usuario' => $this->request->getPost('usuario'),
                 'email' => $this->request->getPost('email'),
                 'ap_paterno' => $this->request->getPost('ap_paterno'),

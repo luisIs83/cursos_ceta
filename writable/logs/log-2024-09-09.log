@@ -1,0 +1,189 @@
+CRITICAL - 2024-09-09 12:18:15 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, null given, called in C:\xampp\htdocs\reportes_cursos\system\Controller.php on line 160
+#0 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(213): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-09-09 12:30:04 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(223): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-09 12:30:04 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(223): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-09-09 12:31:24 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(223): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-09 12:31:24 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(223): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-09-09 12:31:43 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(223): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-09 12:31:43 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(223): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-09-09 12:33:55 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(229): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-09 12:33:55 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(229): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-09-09 12:34:16 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(229): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-09 12:34:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(229): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-09 12:34:34 --> syntax error, unexpected single-quoted string "contraseña", expecting "]"
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('usuarios/valida')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('usuarios/valida')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-09-09 12:35:13 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «usuarios»
+LINE 2: FROM &quot;usuarios&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #135, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(229): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-09 12:35:13 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('uangel', 'usuarios', Array, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'uangel', Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(229): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
