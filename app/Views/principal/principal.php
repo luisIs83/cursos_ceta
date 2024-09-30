@@ -26,7 +26,7 @@
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">Hola <?php echo $user_session->nombre, $user_session->id_usuario ?></h3></div>
                                     <div class="card-body">                                  
                                         	<div class="d-grid gap-2 col-6 mx-auto">
-  												<a href="<?php echo base_url(); ?>/reportes/repor_cursos" class="btn btn-primary">Mis cursos</a>
+  												<a href="" class="btn btn-primary">Mis cursos</a>
   												<a href="" class="btn btn-primary">Registrar curso</a>
 											</div>                                                                            
                                     </div>

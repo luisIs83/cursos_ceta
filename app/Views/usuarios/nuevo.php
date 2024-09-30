@@ -30,43 +30,43 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="usuario"><h7>Ingrese RFC SIN HOMOCLAVE como el siguiente ejemplo: <h7></label>
+                                            <label for="usuario"><h6>Ingrese RFC SIN HOMOCLAVE como el siguiente ejemplo: </h6></label>
                                             <input class="form-control" id="usuario" type="text" name="usuario" placeholder="TOGM900603" autofocus  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="email"><h7>Ingrese un correo válido:<h7></label>
+                                            <label for="email"><h6>Ingrese un correo válido:</h6></label>
                                             <input class="form-control" id="email" type="email" name="email" placeholder="ejemplo@gmail.com" />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="nombre"><h7>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h7></label>
+                                            <label for="nombre"><h6>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
                                             <input class="form-control" id="nombre" type="text" name="nombre" style="" placeholder="Sebastian"  />
                                             
                                         </div><br>
                                         
                                         <div class="form-group">
-                                            <label for="ap_paterno"><h7>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h7></label>
+                                            <label for="ap_paterno"><h6>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
                                             <input class="form-control" id="ap_paterno" type="text" name="ap_paterno" style="" placeholder="Sánchez"  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="ap_materno"><h7>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h7></label>
+                                            <label for="ap_materno"><h6>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
                                             <input class="form-control" id="ap_materno" type="text" name="ap_materno" style=""placeholder="Rodríguez"  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="num_celular"><h7>Teléfono celular:<h7></label>
-                                            <input class="form-control" id="num_celular" type="numero" name="num_celular" placeholder="5500112244" maxlength="50"  />
+                                            <label for="num_celular"><h6>Teléfono celular:</h6></label>
+                                            <input class="form-control" id="num_celular" type="tel" name="num_celular" placeholder="5500112244" maxlength="50"  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="password">Contraseña:</label>
-                                            <input class="form-control" id="password" type="password" name="password" value="<?php //echo set_value('password') ?>" />
+                                            <label for="password"><h6>Contraseña:</h6></label>
+                                            <input class="form-control" id="password" type="password" name="password" value="<?php echo set_value('password') ?>" />
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="repassword">Repite contraseña:</label>
-                                            <input class="form-control" id="repassword" type="password" name="repassword" value="<?php //echo set_value('repassword') ?>" />
+                                            <label for="repassword"><h6>Repite contraseña:</h6></label>
+                                            <input class="form-control" id="repassword" type="password" name="repassword" value="<?php echo set_value('repassword') ?>" />
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@
                                     <div class="card-body">
                                         <select id="genero" name="cat_categoria" class="form-select" aria-label="Default select example">
                                             <option value="0">Seleccione:</option>
-                                            <?php foreach($categorias as $categoria) { ?>
+                                            <?php sort($categorias); foreach($categorias as $categoria) { ?>
                                                 <option value="<?php echo $categoria['id_cat']; ?>"><?php echo $categoria['nom_cat']; ?></option>
                                             <?php } ?>
                                         </select>
@@ -124,49 +124,7 @@
                                             <?php } ?>
                                         </select>
                                     </div>
-                                </div>
-
-                                <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header">
-                                        <h3 class="text-left font-weight-light my-1">Curso al que se inscribe</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <select id="genero" name="nombre_curso" class="form-select" aria-label="Default select example">
-                                            <option value="0">Seleccione:</option>
-                                            <?php sort($cursos);  foreach($cursos as $curso) { ?>
-                                                <option value="<?php echo $curso['id_cursos']; ?>"><?php echo $curso['nom_curso']; ?></option>
-                                            <?php } ?>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header">
-                                        <h3 class="text-left font-weight-light my-1">Opcionales</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        ¿Cuál es la importancia que para usted tienen en este momento las herramientas digitales en su práctica docente?
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" id="nombre" type="text" name="op_uno" placeholder="" maxlength="490"/>
-                                            <label for="nombre"></label>
-                                        </div>
-                                        ¿Tiene planeado integrar en forma permanente a su práctica docente presencial, herramientas digitales para facilitar la enseñanza y el aprendizaje y por qué?
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" id="nombre" type="text" name="op_dos" placeholder="" maxlength="490"/>
-                                            <label for="nombre"></label>
-                                        </div>
-                                        ¿Le interesaría compartir en un futuro próximo con la comunidad de la FES Zaragoza, su experiencia con el empleo de herramientas digitales aplicadas a la enseñanza para el aprendizaje?
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" id="ap_paterno" type="text" name="op_tres" placeholder="" maxlength="490"/>
-                                            <label for="inputFirstName"></label>
-                                        </div>
-                                        Comentarios y sugerencias.
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" id="ap_materno" type="text" name="op_cuatro" placeholder="" maxlength="490"/>
-                                            <label for="inputEmail"></label>
-                                        </div>
-                                    </div>
-                                </div>                            
+                                </div>          
 
                                 <br>
                                 <button type="submit" class="btn btn-success">Guardar</button>

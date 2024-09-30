@@ -23,6 +23,7 @@ class Usuarios extends BaseController
     protected $opcionales;
     protected $reglasLogin;
     protected $reglas;
+    protected $relacion;
 
     public function __construct()
     {
@@ -39,7 +40,7 @@ class Usuarios extends BaseController
 
         $this->reglas = [
             'usuario' => [      
-            'rules' => 'required|is_unique[usuarios.usuario]',
+            'rules' => 'required',
             'errors' => [
                 'required' => 'El campo {field} es obligatorio.',
                 'is_unique' => 'Ya existe un registro con el mismo usuario.'
@@ -130,104 +131,85 @@ class Usuarios extends BaseController
             
         ];
 
-        if ($users != null) {
-            echo view('relacion/relacion', $data);
-        } else{
-            echo view('usuarios/nuevo', $data);
-        }
+       
     }
 
     public function insertar()
     {
-        if ($this->request->getMethod() == "post" && $this->validate($this->reglas)) {
+    if ($this->request->getMethod() == "post" && $this->validate($this->reglas)) {
 
         $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
 
-            $this->usuarios->inser([
-                'usuario' => $this->request->getPost('usuario'),
-                'email' => $this->request->getPost('email'),
-                'ap_paterno' => $this->request->getPost('ap_paterno'),
-                'ap_materno' => $this->request->getPost('ap_materno'),
-                'nombre' => $this->request->getPost('nombre'),
-                'cat_genero' => $this->request->getPost('cat_genero'),
-                'cat_categoria' => $this->request->getPost('cat_categoria'),
-                'cat_carrera' => $this->request->getPost('cat_carrera'),
-                'num_celular' => $this->request->getPost('num_celular'),
-                'cat_dependencia' => $this->request->getPost('cat_dependencia'),
-                'password' => $hash,
-                'cat_rol' => $this->request->where->getPost('cat_rol') 
-            ]);
+        $this->usuarios->save([
+            'usuario' => $this->request->getPost('usuario'),
+            'email' => $this->request->getPost('email'),
+            'ap_paterno' => $this->request->getPost('ap_paterno'),
+            'ap_materno' => $this->request->getPost('ap_materno'),
+            'nombre' => $this->request->getPost('nombre'),
+            'cat_genero' => $this->request->getPost('cat_genero'),
+            'cat_categoria' => $this->request->getPost('cat_categoria'),
+            'cat_carrera' => $this->request->getPost('cat_carrera'),
+            'num_celular' => $this->request->getPost('num_celular'),
+            'cat_dependencia' => $this->request->getPost('cat_dependencia'),
+            'password' => $hash,
+            //'cat_rol' => $this->request->getPost('cat_rol')
+        ]);          
 
-        $idUsuarioReg = $this->usuarios->getInsertID();
-
-        $this->opcionales->insert([
-            'op_uno' => $this->request->getPost('op_uno'),
-            'op_dos' => $this->request->getPost('op_dos'),
-            'op_tres' => $this->request->getPost('op_tres'),
-            'op_cuatro' => $this->request->getPost('op_cuatro'),
-        ]);
-
-        $idOpcionalesReg = $this->opcionales->getInsertID();
-
-            $this->relacion->save([
-                'fk_usuarios' => $idUsuarioReg,
-                'fk_opcionales' => $idOpcionalesReg,
-                'fk_nom_curso' => $this->request->getPost('nombre_curso')
-            ]);
-
-            $this->enviarCorreoConfirmacion($email, $nombre);
+        // Enviar el correo
+        $this->enviarCorreoConfirmacion($this->request->getPost('email'), $this->request->getPost('nombre'));
 
         return redirect()->to(base_url());
-        } else {
-            $dependencias = $this->dependencias->where('activo', '1')->findAll();
-            $carreras = $this->carreras->where('activo', '1')->findAll();
-            $categorias = $this->categorias->where('activo', '1')->findAll();
-            $generos = $this->generos->where('activo', '1')->findAll();
-            $cursos = $this->cursos->where('activo', '1')->findAll();
-            $roles = $this->roles->where('activo', '1')->findAll();
+    } else {
+        // Manejar errores de validación
+        $dependencias = $this->dependencias->where('activo', '1')->findAll();
+        $carreras = $this->carreras->where('activo', '1')->findAll();
+        $categorias = $this->categorias->where('activo', '1')->findAll();
+        $generos = $this->generos->where('activo', '1')->findAll();
+        $cursos = $this->cursos->where('activo', '1')->findAll();
+        $roles = $this->roles->where('activo', '1')->findAll();
 
-            $data = [
-                'dependencias' => $dependencias, 
-                'carreras' => $carreras,
-                'categorias' => $categorias, 
-                'generos' => $generos, 
-                'cursos' => $cursos,
-                'roles' => $roles 
+        $data = [
+            'dependencias' => $dependencias, 
+            'carreras' => $carreras,
+            'categorias' => $categorias, 
+            'generos' => $generos, 
+            'cursos' => $cursos,
+            'roles' => $roles 
         ];
-        //$data = ['titulo' => 'Profesor', 'validation' => $this->validator];
-        //echo view('header');
+        
         echo view('usuarios/nuevo', $data);
-        //echo view('footer');
-        }
     }
+}
+
 
     // Método para enviar el correo
-    private function enviarCorreoConfirmacion($email, $nombre)
+    private function enviarCorreoConfirmacion($correoDestino, $nombre)
     {
         // Cargar el servicio de email
         $email = \Config\Services::email();
 
         // Configurar los detalles del correo
-        $email->setTo($email);
+        $email->setTo($correoDestino);
         $email->setFrom('luis.saldivar19@gmail.com', 'Cursos y talleres del CETA');
         $email->setSubject('Confirmación de Registro');
         
         // El cuerpo del mensaje
         $mensaje = "
-            <h2>Hola $nombre, gracias por registrarte</h2>
-            <p>Por favor, confirma tu correo haciendo clic en el siguiente enlace:</p>
+            Hola $nombre, gracias por registrarte
+            Por favor, haga clic en el siguiente enlace para registrar el o los cursos:
+            <p><a href='". base_url() ."/reportes_cursos/public'>Confirmar mi cuenta</a>
         ";
         $email->setMessage($mensaje);
 
         // Enviar el correo
-        /*if ($email->send()) {
+        if ($email->send()) {
             // Opcionalmente puedes redirigir a una página de éxito o mostrar un mensaje
             echo "Correo de confirmación enviado correctamente.";
         } else {
             // Mostrar errores en caso de fallo
             $data = $email->printDebugger(['headers']);
             print_r($data);
-        }*/
+        }
     }
 
 
@@ -254,12 +236,12 @@ class Usuarios extends BaseController
                     if ($datosSesion['c_rol'] == '2') {
                     $session = session();
                     $session->set($datosSesion);                    
-                        return redirect()->to(base_url() . '/reportes');
+                        return redirect()->to(base_url() . '/principal');
                         
                     } elseif ($datosSesion['c_rol'] == '1') {
                         $session = session();
                         $session->set($datosSesion);
-                        return redirect()->to(base_url() . '/carreras');
+                        return redirect()->to(base_url() . '/principal');
                     }
                     
                 } else {

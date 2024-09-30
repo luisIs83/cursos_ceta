@@ -11,7 +11,7 @@
                             <tr>
                                
                                 <th>Curso</th>
-                                
+                                <th>Eliminar</th>
                                 <th>Ver</th>
                                 
                             </tr>
@@ -22,7 +22,7 @@
                                 <tr>                                                                       
                                     
                                     <td><?php echo $dato['nom_curso']; ?></td>
-                                    
+                                    <td><a href="" class="btn btn-warning"><i class="fa-duotone fa-solid fa-trash-can"></i></a></td>
                                     <td><a href="<?php echo base_url() . '/reportes/ver/'  ?>" class="btn btn-warning"><i class="fa-solid fa-pencil"></i></a></td>
                                 </tr>
 
