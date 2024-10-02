@@ -38,6 +38,16 @@ public function index($activo = '1')
     echo view('footer');
 }
 
+public function oferta_cursos($activo = '1')
+{
+    $oferta_cursos = $this->cursos->where('activo',$activo)->findAll();
+    $data = ['titulo' => 'Cursos ofertados', 'datos' => $oferta_cursos];
+
+    echo view('header');
+    echo view('cursos/oferta_cursos', $data);
+    echo view('footer');
+}
+
 public function eliminados($activo = '0')
 {
     $cursos = $this->cursos->where('activo',$activo)->findAll();

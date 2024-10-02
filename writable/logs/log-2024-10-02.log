@@ -1,0 +1,78 @@
+CRITICAL - 2024-10-02 12:25:25 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\usuarios\usuarios.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(84): view('usuarios/usuari...')
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-02 15:09:34 --> Unclosed '{' on line 11
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('oferta_cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('oferta_cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-02 15:24:58 --> Class "App\Controllers\UsuariosModel" not found
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Oferta_Cursos->__construct()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-02 15:25:48 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-02 15:26:03 --> Cannot redeclare App\Controllers\Oferta_Cursos::$cursos
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-02 15:26:23 --> Undefined property: App\Controllers\Oferta_Cursos::$oferta_cursos
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Oferta_Cursos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-02 16:40:22 --> Call to undefined method App\Models\CursosModel::getOferta_Cursos
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Oferta_Cursos.php(34): CodeIgniter\Model->__call('getOferta_Curso...', Array)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-02 16:43:12 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-02 16:44:00 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('oferta_cursos')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('oferta_cursos')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-02 16:44:30 --> Call to a member function getOferta_CursosOrdenados() on null
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-02 16:44:49 --> Array callback must have exactly two elements
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-02 16:44:59 --> Call to a member function findAll() on array
+#0 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Oferta_Cursos->index()
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Oferta_Cursos))
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

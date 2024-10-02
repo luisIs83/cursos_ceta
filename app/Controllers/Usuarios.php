@@ -238,7 +238,7 @@ class Usuarios extends BaseController
                     $session->set($datosSesion);                    
                         return redirect()->to(base_url() . '/principal');
                         
-                    } elseif ($datosSesion['c_rol'] == '1') {
+                    } elseif ($datosSesion['c_rol'] == null) {
                         $session = session();
                         $session->set($datosSesion);
                         return redirect()->to(base_url() . '/principal');
