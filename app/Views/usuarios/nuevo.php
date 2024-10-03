@@ -31,7 +31,7 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="usuario"><h6>Ingrese RFC SIN HOMOCLAVE como el siguiente ejemplo: </h6></label>
-                                            <input class="form-control" id="usuario" type="text" name="usuario" placeholder="TOGM900603" autofocus  />
+                                            <input class="form-control" id="usuario" type="text" name="usuario" placeholder="Ejemplo: TOGM900603" pattern="[A-Z]{4}[0-9]{6}" title="El RFC debe contener 4 letras MAYÚSCULAS seguidas de 6 números, sin HOMOCLAVE" maxlength="10" required autofocus  />
                                             
                                         </div><br>
                                         <div class="form-group">
@@ -40,18 +40,18 @@
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="nombre"><h6>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
+                                            <label for="nombre"><h6>Nombre(s). Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
                                             <input class="form-control" id="nombre" type="text" name="nombre" style="" placeholder="Sebastian"  />
                                             
                                         </div><br>
                                         
                                         <div class="form-group">
-                                            <label for="ap_paterno"><h6>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
+                                            <label for="ap_paterno"><h6>Apellido paterno. Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
                                             <input class="form-control" id="ap_paterno" type="text" name="ap_paterno" style="" placeholder="Sánchez"  />
                                             
                                         </div><br>
                                         <div class="form-group">
-                                            <label for="ap_materno"><h6>Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
+                                            <label for="ap_materno"><h6>Apellido materno. Favor de usar mayúsculas y minúsculas y acento, si es el caso:</h6></label>
                                             <input class="form-control" id="ap_materno" type="text" name="ap_materno" style=""placeholder="Rodríguez"  />
                                             
                                         </div><br>
@@ -127,7 +127,7 @@
                                 </div>          
 
                                 <br>
-                                <button type="submit" class="btn btn-success">Guardar</button>
+                                <button type="button" class="btn btn-success" id="guardarBtn">Guardar</button>
                                <a href="<?php echo base_url(); ?>/usuarios/login" class="btn btn-warning">Regresar</a>
                             </form>
 
@@ -164,4 +164,127 @@
 
 </body>
 </html>
+
+<script>
+document.getElementById('guardarBtn').addEventListener('click', function(event) {
+    // Obtiene el valor del RFC, correo y nombre
+    const rfcInput = document.getElementById('usuario').value;
+    const emailInput = document.getElementById('email').value;
+    const nombreInput = document.getElementById('nombre').value;
+    
+    // Patrón de validación para RFC: 4 letras mayúsculas + 6 números
+    const rfcPattern = /^[A-Z]{4}[0-9]{6}$/;
+    
+    // Patrón de validación para el correo
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    
+    // Patrón de validación para el nombre
+    const nombrePattern = /^([A-ZÁÉÍÓÚÑ][a-záéíóúñ']+\s?)+$/;
+    
+    let isValid = true;
+    
+    // Validación del RFC
+    if (!rfcPattern.test(rfcInput)) {
+        isValid = false;
+        // Muestra el modal para el RFC
+        const rfcModal = new bootstrap.Modal(document.getElementById('rfcModal'));
+        rfcModal.show();
+    }
+    
+    // Validación del correo electrónico
+    if (!emailPattern.test(emailInput)) {
+        isValid = false;
+        // Muestra el modal para el correo electrónico
+        const emailModal = new bootstrap.Modal(document.getElementById('emailModal'));
+        emailModal.show();
+    }
+
+    // Validación del nombre
+    if (!nombrePattern.test(nombreInput)) {
+        isValid = false;
+        // Muestra el modal para el nombre
+        const nombreModal = new bootstrap.Modal(document.getElementById('nombreModal'));
+        nombreModal.show();
+    }
+
+    // Si todas las validaciones son correctas, se envía el formulario
+    if (isValid) {
+        document.querySelector('form').submit();
+    }
+});
+</script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="rfcModal" tabindex="-1" aria-labelledby="rfcModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="rfcModalLabel">Error en el RFC</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Por favor, ingrese el RFC correctamente siguiendo estas reglas:</p>
+                <ul>
+                    <li>Debe contener exactamente <strong>10 caracteres</strong>.</li>
+                    <li>Los primeros <strong>cuatro</strong> caracteres deben ser <strong>letras mayúsculas</strong>.</li>
+                    <li>Los siguientes <strong>seis</strong> caracteres deben ser <strong>números</strong>.</li>
+                    <li>No incluya la homoclave (los tres últimos caracteres del RFC).</li>
+                    <li>Ejemplo válido: <strong>TOGM900603</strong></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para correo -->
+<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="emailModalLabel">Error en el correo electrónico</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Por favor, ingrese un correo electrónico válido en el formato correcto:</p>
+                <ul>
+                    <li>El correo debe estar en el formato: <strong>nombre@dominio.com</strong>.</li>
+                    <li>Ejemplo de correo válido: <strong>ejemplo@gmail.com</strong></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para nombre -->
+<div class="modal fade" id="nombreModal" tabindex="-1" aria-labelledby="nombreModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="nombreModalLabel">Error en el nombre</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Por favor, ingrese un nombre válido siguiendo estas reglas:</p>
+                <ul>
+                    <li>El nombre debe comenzar con una <strong>letra mayúscula</strong>.</li>
+                    <li>Se permiten nombres con más de una palabra (nombres compuestos).</li>
+                    <li>Ejemplo válido: <strong>Juan Carlos</strong>, <strong>María Fernanda</strong></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
