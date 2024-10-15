@@ -39,8 +39,8 @@ class Usuarios extends BaseController
         helper(['form']);
 
         $this->reglas = [
-            'usuario' => [      
-            'rules' => 'required',
+            /*'usuario' => [      
+            'rules' => 'required|is_unique[registro.usuarios]',
             'errors' => [
                 'required' => 'El campo {field} es obligatorio.',
                 'is_unique' => 'Ya existe un registro con el mismo usuario.'
@@ -58,7 +58,7 @@ class Usuarios extends BaseController
                 'required' => 'El campo {field} es obligatorio.',
                 'matches' => 'Las contraseñas no coinciden.'
                 ]
-            ]
+            ]*/
         ];
 
         $this->reglasLogin = [
@@ -135,55 +135,48 @@ class Usuarios extends BaseController
     }
 
     public function insertar()
-    {
-    if ($this->request->getMethod() == "post" && $this->validate($this->reglas)) {
+{
+    try {
+        // Verificar si el usuario ya existe
+        $nombreUsuario = $this->request->getPost('usuario');
+        $usuarioExistente = $this->usuarios->where('usuario', $nombreUsuario)->first();
 
-        $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
+        if ($usuarioExistente) {
+            // Redirigir con los datos previamente ingresados para que el usuario no tenga que volver a escribir todo
+            return redirect()->back()->withInput()->with('errors', 'El usuario <?php echo $nombreUsuario ?> ya está registrado. <br/> Si olvidó su contraseña comuniquese <br/> al correo ceta@zaragoza.unam.mx');
+        } else {
+            // Hash de la contraseña
+            $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
 
-        $this->usuarios->save([
-            'usuario' => $this->request->getPost('usuario'),
-            'email' => $this->request->getPost('email'),
-            'ap_paterno' => $this->request->getPost('ap_paterno'),
-            'ap_materno' => $this->request->getPost('ap_materno'),
-            'nombre' => $this->request->getPost('nombre'),
-            'cat_genero' => $this->request->getPost('cat_genero'),
-            'cat_categoria' => $this->request->getPost('cat_categoria'),
-            'cat_carrera' => $this->request->getPost('cat_carrera'),
-            'num_celular' => $this->request->getPost('num_celular'),
-            'cat_dependencia' => $this->request->getPost('cat_dependencia'),
-            'password' => $hash,
-            //'cat_rol' => $this->request->getPost('cat_rol')
-        ]);          
+            // Guardar los datos
+            $this->usuarios->insert([
+                'usuario' => $nombreUsuario,
+                'email' => $this->request->getPost('email'),
+                'nombre' => $this->request->getPost('nombre'),
+                'ap_paterno' => $this->request->getPost('ap_paterno'),
+                'ap_materno' => $this->request->getPost('ap_materno'),
+                'password' => $hash,
+                'cat_genero' => $this->request->getPost('cat_genero'),
+                'cat_categoria' => $this->request->getPost('cat_categoria'),
+                'cat_carrera' => $this->request->getPost('cat_carrera'),
+                'num_celular' => $this->request->getPost('num_celular'),
+                'cat_dependencia' => $this->request->getPost('cat_dependencia')
+            ]);
 
-        // Enviar el correo
-        $this->enviarCorreoConfirmacion($this->request->getPost('email'), $this->request->getPost('nombre'));
+            // Enviar el correo
+            $this->enviarCorreoConfirmacion($this->request->getPost('email'), $this->request->getPost('nombre'), $this->request->getPost('password'));
 
-        return redirect()->to(base_url());
-    } else {
-        // Manejar errores de validación
-        $dependencias = $this->dependencias->where('activo', '1')->findAll();
-        $carreras = $this->carreras->where('activo', '1')->findAll();
-        $categorias = $this->categorias->where('activo', '1')->findAll();
-        $generos = $this->generos->where('activo', '1')->findAll();
-        $cursos = $this->cursos->where('activo', '1')->findAll();
-        $roles = $this->roles->where('activo', '1')->findAll();
-
-        $data = [
-            'dependencias' => $dependencias, 
-            'carreras' => $carreras,
-            'categorias' => $categorias, 
-            'generos' => $generos, 
-            'cursos' => $cursos,
-            'roles' => $roles 
-        ];
-        
-        echo view('usuarios/nuevo', $data);
+            return redirect()->to(base_url());
+        }
+    } catch (\Exception $e) {
+        // Mostrar cualquier error relacionado con la base de datos
+        echo 'Error al insertar: ' . $e->getMessage();
     }
 }
 
 
     // Método para enviar el correo
-    private function enviarCorreoConfirmacion($correoDestino, $nombre)
+    private function enviarCorreoConfirmacion($correoDestino, $nombre, $password)
     {
         // Cargar el servicio de email
         $email = \Config\Services::email();
@@ -196,6 +189,7 @@ class Usuarios extends BaseController
         // El cuerpo del mensaje
         $mensaje = "
             Hola $nombre, gracias por registrarte
+            Tu contraseña es: $password
             Por favor, haga clic en el siguiente enlace para registrar el o los cursos:
             <p><a href='". base_url() ."/reportes_cursos/public'>Confirmar mi cuenta</a>
         ";

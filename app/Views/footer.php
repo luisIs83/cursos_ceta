@@ -22,6 +22,7 @@
 <script src="<?php echo base_url(); ?>/js/Chart.min.js"></script>
 <script src="<?php echo base_url(); ?>/assets/demo/chart-area-demo.js"></script>
 <script src="<?php echo base_url(); ?>/assets/demo/chart-bar-demo.js"></script>
+<script src="<?php echo base_url(); ?>/css/bootstrap.min.css"></script>
 
 <script>
     $('#modal-confirma').on('show.bs.modal', function(e){

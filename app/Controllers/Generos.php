@@ -92,6 +92,6 @@ public function reingresar($id_gen)
     $this->generos->update($id_gen, ['activo' => '1']);
     return redirect()->to(base_url().'/generos');
 }
-}
+}   
 
 ?>
