@@ -1,64 +1,96 @@
-<?php 
-    $user_session = session();
- ?>
-
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Inicio de sesión</title>
-        <link href="<?php echo base_url(); ?>/css/style.css" rel="stylesheet" />
-        <link href="<?php echo base_url(); ?>/css/styles.css" rel="stylesheet" />
-        <script src="<?php echo base_url(); ?>/js/all.js"></script>
-    </head>
-    <body class="bg-primary" > 
-        <div id="layoutAuthentication">
-            <div id="layoutAuthentication_content">
+<div id="layoutSidenav_content">
                 <main>
-                    <div class="container">                        
-                        <div class="row justify-content-evenly">
-                            <div class="col-lg-5">
-                                <div class="card shadow-lg border-0 rounded-lg mt-5" >
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Hola <?php echo $user_session->nombre, $user_session->id_usuario ?></h3></div>
-                                    <div class="card-body">                                  
-                                        	<div class="d-grid gap-2 col-6 mx-auto">
-  												<a href="<?php echo base_url(); ?>/reportes/repor_cursos" class="btn btn-primary">Mis cursos</a>
-  												<a href="" class="btn btn-primary">Registrar curso</a>
-											</div>                                                                            
-                                    </div>
-                                    <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="<?php echo base_url(); ?>/usuarios/nuevo"></a></div>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Panel</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active"></li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body">Cursos 2025-1</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">Ver detalles</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
-                            
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-warning text-white mb-4">
+                                    <div class="card-body">Cursos 2025-2</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">Ver detalles</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--div class="col-xl-3 col-md-6">
+                                <div class="card bg-success text-white mb-4">
+                                    <div class="card-body">Success Card</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-danger text-white mb-4">
+                                    <div class="card-body">Danger Card</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div-->
                         </div>
-                    </div>
-                    </div>
-                </main>
-            </div>
-            <div id="layoutAuthentication_footer">
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Centro de Tecnologías para el Aprendizaje <?php echo date('Y'); ?></div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                        <!--div class="row">
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Area Chart Example
+                                    </div>
+                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Bar Chart Example
+                                    </div>
+                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                                </div>
+                            </div>
+                        </div-->
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                Usuarios inscritos 
+                            </div>
+                            <div class="card-body">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Nombre</th>                                            
+                                            <th>Curso</th>                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php 
+                                            $contador= 1;
+                                                foreach($principal as $prin) { ?>
+                                                    <tr>
+                                                        <td><?php echo $contador++; ?></td>
+                                                        <td><?php echo $prin['nombre']; ?></td>
+                                                        <td><?php echo $prin['curso']; ?></td>                                                        
+                                                    </tr>
+
+                                        <?php } ?>
+                                    </tbody>                                    
+                                </table>
                             </div>
                         </div>
                     </div>
-                </footer>
-            </div>
-        </div>
-        <script src="<?php echo base_url(); ?>/js/scripts.js"></script>
-        <script src="<?php echo base_url(); ?>/js/simple-datatables@latest.js" ></script>
-        <script src="<?php echo base_url(); ?>/js/datatables-simple-demo.js"></script>
-        <script src="<?php echo base_url(); ?>/jquery/jquery.min"></script>
-        <script src="<?php echo base_url(); ?>/assets/demo/datatables-demo.js"></script>       
-    </body>
-</html>
+                </main>

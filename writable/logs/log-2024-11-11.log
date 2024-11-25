@@ -1,0 +1,54 @@
+CRITICAL - 2024-11-11 10:43:00 --> Undefined variable $inscripciones
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\relacion\relacion.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(37): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-11 10:49:20 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «inscripcion_cursos_ceta.rel_tablas»
+LINE 2: FROM &quot;inscripcion_cursos_ceta&quot;.&quot;rel_tablas&quot;
+             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #125, 'SELECT "fk_nom_...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "fk_nom_...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "fk_nom_...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "fk_nom_...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(161): CodeIgniter\BaseModel->find()
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(554): CodeIgniter\Model->doFindColumn('fk_nom_curso')
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(58): CodeIgniter\BaseModel->findColumn('fk_nom_curso')
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-11 10:49:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\xampp\htdocs\reportes_cursos\system\Model.php(161): CodeIgniter\BaseModel->find()
+#2 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(554): CodeIgniter\Model->doFindColumn('fk_nom_curso')
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(58): CodeIgniter\BaseModel->findColumn('fk_nom_curso')
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-11-11 10:54:15 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-11 11:07:09 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

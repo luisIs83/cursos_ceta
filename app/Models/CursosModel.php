@@ -13,7 +13,7 @@ class CursosModel extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['nom_curso', 'id_usuarios', 'periodo', 'activo'];
+    protected $allowedFields = ['nom_curso', 'id_usuarios', 'id_periodo', 'descripcion', 'fk_id_modalidad', 'fk_id_tipo_act', 'fecha_ini', 'fecha_fin', 'activo'];
 
     protected $useTimestamps = false;
     protected $createdField  = 'created_at';

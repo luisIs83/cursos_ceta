@@ -1,0 +1,604 @@
+CRITICAL - 2024-11-25 09:42:44 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-25 09:44:39 --> Undefined array key "fk_id_modalidad"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-25 09:45:12 --> Undefined array key "id_mod"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-25 09:45:52 --> Undefined array key "nom_mod"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-25 10:41:11 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:41:33 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:44:01 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:44:55 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:45:48 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:48:34 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:49:06 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:49:57 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:50:21 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 10:50:32 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:00:14 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '1', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:00:20 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '1', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:04:38 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '1', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:05:04 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:05:16 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:07:40 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:08:06 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-25 11:09:15 --> Undefined variable $gatos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-25 11:19:08 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:19:15 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:19:22 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:20:03 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:40:56 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...NULL, &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:41:23 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ... = '2', &quot;descripcion&quot; = NULL, &quot;fk_id_modalidad&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:44:00 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...NULL, &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:44:18 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ... = '1', &quot;descripcion&quot; = NULL, &quot;fk_id_modalidad&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 11:46:48 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ... = '1', &quot;descripcion&quot; = NULL, &quot;fk_id_modalidad&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 12:01:06 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ... = '1', &quot;descripcion&quot; = NULL, &quot;fk_id_modalidad&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 12:06:34 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...NULL, &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 12:12:29 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...o&quot; = '1', &quot;descripcion&quot; = '', &quot;fk_id_modalidad&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-25 12:13:33 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «Abrir para seleccionar opción»
+LINE 1: ...o&quot; = '1', &quot;descripcion&quot; = '', &quot;fk_id_modalidad&quot; = 'Abrir par...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-25 13:21:38 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\reportes_cursos\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\reportes_cursos\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\reportes_cursos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\reportes_cursos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

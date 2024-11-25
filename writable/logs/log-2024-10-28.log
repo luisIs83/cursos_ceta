@@ -1,0 +1,42 @@
+CRITICAL - 2024-10-28 16:55:47 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\relacion\relacion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(37): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-28 16:58:51 --> syntax error, unexpected single-quoted string "activo", expecting "]"
+#0 C:\xampp\htdocs\reportes_cursos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\reportes_cursos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Curs...')
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Curs...')
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(809): App\Controllers\Relacion->__construct()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-28 17:00:54 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\relacion\relacion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(37): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-28 17:36:15 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\relacion\relacion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(37): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

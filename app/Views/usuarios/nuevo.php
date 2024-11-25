@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,9 +11,19 @@
     <link href="<?php echo base_url(); ?>/css/style.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/css/styles.css" rel="stylesheet" />
     <script src="<?php echo base_url(); ?>/js/all.js"></script>
+    <style>
+            body {
+            background-image: url('<?php echo base_url(); ?>/assets/img/imaEntradaCETA.jpg');
+            background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+            height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+            margin: 0; /* Elimina el margen por defecto */
+        }
+    </style>
 </head>
 
-<body class="bg-primary">
+<body>
     <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
             <main>
@@ -25,10 +35,24 @@
                                     <?php echo $validation->listErrors(); ?>
                                 </div>        
                             <?php } ?>
-                            <form action="<?php echo base_url(); ?>/usuarios/insertar" method="POST" autocomplete="off">
+                            <?php 
+                                // Supongamos que $categorias1, $categorias2 y $categorias3 están definidos y contienen las categorías para cada select.
+                                usort($categorias, function($a, $b) {
+                                    return strcmp($a['nom_cat'], $b['nom_cat']);
+                                });
+
+                                usort($carreras, function($a, $b) {
+                                    return strcmp($a['nom_carrera'], $b['nom_carrera']);
+                                });
+
+                                usort($dependencias, function($a, $b) {
+                                    return strcmp($a['nom_dep'], $b['nom_dep']);
+                                });
+                            ?>
+                            <form id="userForm" action="<?php echo base_url(); ?>/usuarios/insertar" method="POST" autocomplete="off">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header">
-                                        <img src="<?php echo base_url(); ?>/assets/img/cursos_24.jpg/" width="100%" height="120">
+                                        <img src="<?php echo base_url(); ?>/assets/img/cursos_25.jpg/" width="100%" height="120">
                                     </div>
                                     <div class="card-header">
                                         <h3 class="text-left font-weight-light my-1">Datos del usuario</h3>
@@ -41,7 +65,7 @@
                                         </div><br>
                                         <div class="form-group">
                                             <label for="email"><h6>Ingrese un correo válido:</h6></label>
-                                            <input class="form-control" id="email" type="email" name="email" placeholder="ejemplo@zaragoza.unam.mx" value="<?= old('email'); ?>"/>
+                                            <input class="form-control" id="email" type="text" name="email" placeholder="ejemplo@zaragoza.unam.mx" value="<?= old('email'); ?>"/>
                                             
                                         </div><br>
                                         <div class="form-group">
@@ -62,26 +86,34 @@
                                         </div><br>
                                         <div class="form-group">
                                             <label for="num_celular"><h6>Teléfono celular:</h6></label>
-                                            <input class="form-control" id="num_celular" type="tel" name="num_celular" placeholder="5500112244" maxlength="10" value="<?= old('num_celular'); ?>" />
-                                        </div>   
+                                            <input class="form-control" id="num_celular" type="text" name="num_celular" placeholder="5500112244" maxlength="10" value="<?= old('num_celular'); ?>" />
+                                        </div>  <br>  
                                         <div class="form-group">
-                                            <label for="password"><h6>Contraseña:</h6></label>
-                                            <div class="input-group">
-                                                <input class="form-control" id="password" type="password" name="password" value="<?php echo old('password') ?>" />
-                                                <div class="input-group-append">
-                                                    <button class="btn btn-outline-secondary" type="button" id="togglePassword"><i class="fas fa-eye" id="eyeIcon"></i></button>
+                                            <label for="password"><h6>Contraseña:  </h6></label>
+                                            <small id="passwordHelp" class="form-text text-muted">
+                                                        La contraseña debe tener al menos 8 caracteres, incluyendo mayúsculas, minúsculas, números y un carácter especial.
+                                                    </small>
+                                                <div class="input-group">
+                                                    <input class="form-control" id="password" type="password" name="password" value="<?php echo set_value('password') ?>" />
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                                                <i class="fas fa-eye" id="eyeIcon"></i>
+                                                            </button>
+                                                        </div>
+                                                </div>
+                                            </div><br>
+
+                                        <div class="form-group">
+                                         <label for="repassword"><h6>Confirmar Contraseña:</h6></label>
+                                         <div class="input-group">
+                                             <input class="form-control" id="repassword" type="password" name="repassword" value="<?php echo set_value('repassword') ?>" />
+                                             <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button" id="toggleRePassword">
+                                                        <i class="fas fa-eye" id="eyeIconRe"></i>
+                                                    </button>
                                                 </div>
                                             </div>
-                                        </div><br>
-                                        <div class="form-group">
-                                            <label for="repassword"><h6>Confirmar Contraseña:</h6></label>
-                                            <div class="input-group">
-                                                <input class="form-control" id="repassword" type="password" name="repassword" value="<?php echo old('repassword') ?>" />
-                                                <div class="input-group-append">
-                                                    <button class="btn btn-outline-secondary" type="button" id="toggleRePassword"><i class="fas fa-eye" id="eyeIconRe"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </div> <br>                                      
                                     </div>
                                 </div>
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
@@ -89,7 +121,7 @@
                                         <h3 class="text-left font-weight-light my-1">Género</h3>
                                     </div>
                                     <div class="card-body">
-                                        <select id="selectGenero" name="cat_genero" class="form-select" aria-label="Default select example" >
+                                        <select id="selectGenero" name="cat_genero" class="form-select" aria-label="Default select example" required >
                                             <option value="0">Seleccione:</option>
                                             <?php foreach($generos as $genero) { ?>
                                                 <option value="<?php echo $genero['id_gen']; ?>" 
@@ -106,7 +138,7 @@
                                         <h3 class="text-left font-weight-light my-1">Es usted</h3>
                                     </div>
                                     <div class="card-body">
-                                        <select id="selectCategoria" name="cat_categoria" class="form-select" aria-label="Default select example" onchange="toggleOtherField(this)">
+                                        <select id="selectCategoria" name="cat_categoria" class="form-select" aria-label="Default select example" onchange="toggleOtherField(this)" required>
                                             <option value="0">Seleccione:</option>
                                             <?php foreach($categorias as $categoria) { ?>
                                                 <option value="<?php echo $categoria['id_cat']; ?>"
@@ -114,12 +146,12 @@
                                                     <?php echo $categoria['nom_cat']; ?>
                                                 </option>
                                             <?php } ?>
-                                            <option value="otra">Otra no especificada</option>
+                                            <!--option value="otra">Otra no especificada</option-->
                                         </select>
-                                        <div id="otraCategoriaDiv" style="display: none; margin-top: 10px;">
+                                        <!--div id="otraCategoriaDiv" style="display: none; margin-top: 10px;">
                                             <label for="otra_categoria"><H6>Especifique su categoría:</H6></label>
-                                            <input type="text" id="otra_categoria" name="otra_categoria" class="form-control" value="<?php echo old('otra_categoria'); ?>" placeholder="Especifique aquí">
-                                        </div>
+                                            <input type="text" id="otra_categoria" name="otra_categoria" class="form-control" value="<?php echo old('otra_categoria'); ?>" placeholder="Especifique aquí" required>
+                                        </div-->
                                     </div>
                                 </div>
 
@@ -128,7 +160,7 @@
                                         <h3 class="text-left font-weight-light my-1">Carrera o área de adscripción</h3>
                                     </div>
                                     <div class="card-body">
-                                        <select id="selectCarrera" name="cat_carrera" class="form-select" aria-label="Default select example" onchange="toggleOtherField(this)">
+                                        <select id="selectCarrera" name="cat_carrera" class="form-select" aria-label="Default select example" onchange="toggleOtherField(this)" required>
                                             <option value="0">Seleccione:</option>
                                             <?php foreach($carreras as $carrera) { ?>
                                                 <option value="<?php echo $carrera['id_carrera']; ?>"
@@ -136,12 +168,12 @@
                                                     <?php echo $carrera['nom_carrera']; ?>
                                                 </option>
                                             <?php } ?>
-                                            <option value="otra">Otra no especificada</option>
+                                            <!--option value="otra">Otra no especificada</option-->
                                         </select>
-                                        <div id="otraCarreraDiv" style="display: none; margin-top: 10px;">
+                                        <!--div id="otraCarreraDiv" style="display: none; margin-top: 10px;">
                                             <label for="otra_carrera"><H6>Especifique su carrera:</H6></label>
-                                            <input type="text" id="otra_carrera" name="otra_carrera" class="form-control" value="<?php echo old('otra_carrera'); ?>" placeholder="Especifique aquí">
-                                        </div>
+                                            <input type="text" id="otra_carrera" name="otra_carrera" class="form-control" value="<?php echo old('otra_carrera'); ?>" placeholder="Especifique aquí" required>
+                                        </div-->
                                     </div>
                                 </div>
 
@@ -150,7 +182,7 @@
                                         <h3 class="text-left font-weight-light my-1">Dependencia a la que pertenece</h3>
                                     </div>
                                     <div class="card-body">
-                                        <select id="selectDependencia" name="cat_dependencia" class="form-select" aria-label="Default select example" onchange="toggleOtherField(this)">
+                                        <select id="selectDependencia" name="cat_dependencia" class="form-select" aria-label="Default select example" onchange="toggleOtherField(this)" required>
                                             <option value="0">Seleccione:</option>
                                             <?php foreach($dependencias as $dependencia) { ?>
                                                 <option value="<?php echo $dependencia['id_dep']; ?>"
@@ -158,18 +190,19 @@
                                                     <?php echo $dependencia['nom_dep']; ?>
                                                 </option>
                                             <?php } ?>
-                                            <option value="otra">Otra no especificada</option>
+                                            <!--option value="otra">Otra no especificada</option-->
                                         </select>
-                                        <div id="otraDependenciaDiv" style="display: none; margin-top: 10px;">
+                                        <!--div id="otraDependenciaDiv" style="display: none; margin-top: 10px;">
                                             <label for="otra_dependencia"><H6>Especifique su categoría:</H6></label>
-                                            <input type="text" id="otra_dependencia" name="otra_dependencia" class="form-control" value="<?php echo old('otra_dependencia'); ?>" placeholder="Especifique aquí">
-                                        </div>
-                                    </div>
-                                </div>          
-
+                                            <input type="text" id="otra_dependencia" name="otra_dependencia" class="form-control" value="<?php echo old('otra_dependencia'); ?>" placeholder="Especifique aquí" required>
+                                        </div-->
+                                    </div> 
+                                </div> 
                                 <br>
+                                <div class="text-center mt-3">
                                 <button type="button" class="btn btn-success" id="guardarBtn">Guardar</button>
                                <a href="<?php echo base_url(); ?>/usuarios/login" class="btn btn-warning">Regresar</a>
+                               </div>
                             </form>
 
 
@@ -181,7 +214,7 @@
             </main>
         </div>
 
-    </div>
+    </div><br><br><br><br>
 
     <div id="layoutAuthentication_footer">
         <footer class="py-4 bg-light mt-auto">
@@ -197,14 +230,77 @@
             </div>
         </footer>
     </div>
+
+    <!-- Modal para mostrar los errores -->
+<div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="errorModalLabel">Errores de Validación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p id="errorContent"></p> <!-- Aquí se mostrarán los errores -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="errorModal1" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="errorModalLabel">Error</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Aquí se muestra el mensaje de error -->
+                <?= session()->getFlashdata('errorss') ?>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Registro Exitoso</h5>
+                <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="successContent">
+                Registro exitoso. Favor de revisar el correo que registró.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="confirmCloseModal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
         <script src="<?php echo base_url(); ?>/js/bootstrap.bundle.min.js" ></script>
         <script src="<?php echo base_url(); ?>/js/scripts.js"></script>
         <script src="<?php echo base_url(); ?>/js/simple-datatables@latest.js" ></script>
-        <script src="<?php echo base_url(); ?>/js/datatables-simple-demo.js"></script>
-        
+        <script src="<?php echo base_url(); ?>/js/datatables-simple-demo.js"></script> 
+        <script src="<?php echo base_url(); ?>/js/popper.min.js"></script> 
 
-</body>
-</html>
+        <script>
+    document.getElementById('confirmCloseModal').addEventListener('click', function() {
+        // Redirigir a usuarios/login
+        window.location.href = 'usuarios/login';
+    });
+
+    // Si usas el botón de cerrar en el header del modal
+    document.querySelector('.btn-close').addEventListener('click', function() {
+        window.location.href = 'usuarios/login';
+    });
+</script>
 
 <script>
     document.getElementById('guardarBtn').addEventListener('click', function(event) {
@@ -219,6 +315,12 @@
         const num_celularInput = document.getElementById('num_celular').value;
         const passwordInput = document.getElementById('password').value;
         const repasswordInput = document.getElementById('repassword').value;
+
+        // Obtiene los valores de los selects
+        const generoInput = document.getElementById('selectGenero').value;
+        const categoriaInput = document.getElementById('selectCategoria').value;
+        const carreraInput = document.getElementById('selectCarrera').value;
+        const dependenciaInput = document.getElementById('selectDependencia').value;
 
         // Expresiones regulares para las validaciones
         const rfcPattern = /^[A-Z]{4}[0-9]{6}$/;
@@ -263,6 +365,20 @@
             errors.push("Las contraseñas no coinciden.");
         }        
 
+        // Validación de selects
+        if (generoInput === "0") {
+            errors.push("<strong>Género</strong> es un campo obligatorio. Debe seleccionar una opción.");
+        }
+        if (categoriaInput === "0") {
+            errors.push("<strong>Categoría</strong> es un campo obligatorio. Debe seleccionar una opción.");
+        }
+        if (carreraInput === "0") {
+            errors.push("<strong>Carrera</strong> es un campo obligatorio. Debe seleccionar una opción.");
+        }
+        if (dependenciaInput === "0") {
+            errors.push("<strong>Dependencia</strong> es un campo obligatorio. Debe seleccionar una opción.");
+        }
+
         // Si hay errores, mostrarlos
         if (errors.length > 0) {
         // Muestra los errores en el modal
@@ -273,46 +389,13 @@
     } else {
         // Si no hay errores, envía el formulario
         document.querySelector('form').submit();
+
+        // Muestra el modal de éxito
+            const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+            successModal.show();
     }
 });
 </script>
-
-<!-- Modal para mostrar los errores -->
-<div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="errorModalLabel">Errores de Validación</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p id="errorContent"></p> <!-- Aquí se mostrarán los errores -->
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="errorModal1" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="errorModalLabel">Error</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Aquí se muestra el mensaje de error -->
-                <?= session()->getFlashdata('errors') ?>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <script>
 document.getElementById('togglePassword').addEventListener('click', function() {
@@ -346,15 +429,14 @@ document.getElementById('toggleRePassword').addEventListener('click', function()
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-    <?php if(session()->getFlashdata('errors')): ?>
-        var errorModal1 = new bootstrap.Modal(document.getElementById('errorModal1'));
-        errorModal1.show();
-    <?php endif; ?>
-});
-
+        <?php if(session()->getFlashdata('errorss')): ?>
+            var errorModal1 = new bootstrap.Modal(document.getElementById('errorModal1'));
+            errorModal1.show();
+        <?php endif; ?>
+    });
 </script>
 
-<script>
+<!--script>
 function toggleOtherField(selectElement) {
     const otraCategoriaDiv = document.getElementById('otraCategoriaDiv');
     const otraCarreraDiv = document.getElementById('otraCarreraDiv');
@@ -384,7 +466,45 @@ function toggleOtherField(selectElement) {
     }
 }
 
+</script-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- Modal de Registro Exitoso 
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Registro Exitoso</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Registro exitoso, puede revisar la bandeja de entrada del correo que registró para continuar con la inscripción a los cursos y talleres. Gracias.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        <?php //if(session()->getFlashdata('success')): ?>
+            var successModal = new bootstrap.Modal(document.getElementById('successModal'));
+            successModal.show();
+        <?php //endif; ?>
+    });
 </script>
 
 
 
+
+ 

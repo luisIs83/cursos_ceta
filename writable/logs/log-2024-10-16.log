@@ -1,0 +1,197 @@
+ERROR - 2024-10-16 09:53:32 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-10-16 09:55:33 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-10-16 09:58:01 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-10-16 10:00:21 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-10-16 10:02:44 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-10-16 10:10:03 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-10-16 12:31:01 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(107): view('usuarios/nuevo', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->nuevo()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 12:32:06 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(107): view('usuarios/nuevo', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->nuevo()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 12:33:11 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(107): view('usuarios/nuevo', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->nuevo()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-16 12:33:18 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(107): view('usuarios/nuevo', Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->nuevo()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-10-16 12:47:31 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-10-16 13:11:17 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-10-16 14:00:39 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «uq_email»
+DETAIL:  Ya existe la llave (email)=(luis.saldivar@zaragoza.unam.mx). in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #130, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Usuarios.php(163): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

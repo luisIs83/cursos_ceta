@@ -5,8 +5,8 @@ use CodeIgniter\Model;
 
 class RelacionModel extends Model
 {
-    protected $table      = 'registro.carrera';
-    protected $primaryKey = 'id_relacion';
+    protected $table      = 'registro.rel_tablas';
+    protected $primaryKey = 'id_rel';
 
     protected $useAutoIncrement = true;
 

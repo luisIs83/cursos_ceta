@@ -1,0 +1,546 @@
+ERROR - 2024-11-20 09:39:08 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «activo»
+LINE 3: WHERE &quot;activo&quot; = '1'
+              ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(30): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->index()
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-20 09:39:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->index()
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-20 09:45:02 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\reportes_cursos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('fechas')
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('fechas')
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-20 09:45:57 --> There is no data to insert.
+#0 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(60): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-11-20 09:46:20 --> There is no data to insert.
+#0 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(60): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#4 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-11-20 09:49:43 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo time with time zone: «2024-07-20»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-07-2...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-20 09:50:03 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo time with time zone: «2024-11-05»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-11-0...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-20 09:50:28 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo time with time zone: «2024-11-05»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-11-0...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-11-20 09:53:14 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo time with time zone: «2024-11-01»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-11-0...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#12 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-11-20 09:57:55 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo time with time zone: «2024-11-05»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-11-0...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-20 10:08:56 --> ErrorException: pg_query(): Query failed: ERROR:  literal de rango mal formado: «2024-11-06»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-11-0...
+                                                             ^
+DETAIL:  Falta paréntesis o corchete izquierdo. in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-20 10:10:47 --> ErrorException: pg_query(): Query failed: ERROR:  literal de rango mal formado: «2024-11-01»
+LINE 1: ...fecha_dos&quot;, &quot;fecha_tres&quot;, &quot;fecha_cuatro&quot;) VALUES ('2024-11-0...
+                                                             ^
+DETAIL:  Falta paréntesis o corchete izquierdo. in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #123, 'INSERT INTO "re...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Fechas.php(63): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Fechas->insertar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fechas))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-11-20 15:24:16 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(68): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:25:17 --> Undefined variable $id_usuarios
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(68): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:26:10 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(68): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:30:39 --> Undefined array key "id"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:31:32 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:32:00 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:32:02 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:32:43 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:34:31 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:40:53 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:40:54 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:44:01 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:46:03 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:46:13 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:46:14 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:46:14 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:46:15 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:46:15 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:51:13 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:51:15 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:03 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:25 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:54 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:56 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:56 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:56 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:56 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:52:56 --> Undefined variable $datos
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:53:02 --> Undefined array key "nom_curso"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\cursos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: CodeIgniter\View\View->{closure}(Array, Array)
+#2 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\cursos.php(16): usort(Array, Object(Closure))
+#3 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/cursos', Array, true)
+#6 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(41): view('cursos/cursos', Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->index()
+#8 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-20 15:54:05 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:55:48 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:56:57 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-20 15:57:13 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

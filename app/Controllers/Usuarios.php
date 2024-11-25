@@ -22,7 +22,6 @@ class Usuarios extends BaseController
     protected $cursos;
     protected $opcionales;
     protected $reglasLogin;
-    protected $reglas;
     protected $relacion;
 
     public function __construct()
@@ -36,30 +35,7 @@ class Usuarios extends BaseController
         $this->opcionales = new OpcionalesModel();
         $this->roles = new RolesModel();
         
-        helper(['form']);
-
-        $this->reglas = [
-            /*'usuario' => [      
-            'rules' => 'required|is_unique[registro.usuarios]',
-            'errors' => [
-                'required' => 'El campo {field} es obligatorio.',
-                'is_unique' => 'Ya existe un registro con el mismo usuario.'
-                ]
-            ],
-            'password' => [      
-            'rules' => 'required',
-            'errors' => [
-                'required' => 'El campo {field} es obligatorio.'
-                ]
-            ],
-            'repassword' => [      
-            'rules' => 'required|matches[password]',
-            'errors' => [
-                'required' => 'El campo {field} es obligatorio.',
-                'matches' => 'Las contraseñas no coinciden.'
-                ]
-            ]*/
-        ];
+        helper(['form']);       
 
         $this->reglasLogin = [
             'usuario' => [
@@ -108,6 +84,21 @@ class Usuarios extends BaseController
         //echo view('footer');
     }
 
+    public function nuevoProfCurso()
+    {
+        $cursos = $this->cursos->where('activo', '1')->findAll();
+        //$roles = $this->roles->where('activo', '1')->findAll();
+
+        $data = [ 
+            'cursos' => $cursos,
+            //'roles' => $roles 
+        ];
+
+        echo view('header');
+        echo view('usuarios/nuevoProfCurso', $data);
+        echo view('footer');
+    }
+
     public function buscar()
     {     
         
@@ -135,15 +126,15 @@ class Usuarios extends BaseController
     }
 
     public function insertar()
-{
-    try {
+    {
+    
         // Verificar si el usuario ya existe
         $nombreUsuario = $this->request->getPost('usuario');
         $usuarioExistente = $this->usuarios->where('usuario', $nombreUsuario)->first();
 
         if ($usuarioExistente) {
             // Redirigir con los datos previamente ingresados para que el usuario no tenga que volver a escribir todo
-            return redirect()->back()->withInput()->with('errors', 'El usuario <?php echo $nombreUsuario ?> ya está registrado. <br/> Si olvidó su contraseña comuniquese <br/> al correo ceta@zaragoza.unam.mx');
+            return redirect()->back()->withInput()->with('errorss', 'El usuario ya está registrado. <br/> Si olvidó su contraseña comuniquese <br/> al correo ceta@zaragoza.unam.mx');
         } else {
             // Hash de la contraseña
             $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
@@ -160,57 +151,89 @@ class Usuarios extends BaseController
                 'cat_categoria' => $this->request->getPost('cat_categoria'),
                 'cat_carrera' => $this->request->getPost('cat_carrera'),
                 'num_celular' => $this->request->getPost('num_celular'),
-                'cat_dependencia' => $this->request->getPost('cat_dependencia')
+                'cat_dependencia' => $this->request->getPost('cat_dependencia'),
+                'fecha_inicio' => $this->request->getPost('fecha_inicio'),
+                //'otra_categoria' => $this->request->getPost('otra_categoria'),
+                //'otra_carrera' => $this->request->getPost('otra_carrera'),
+                //'otra_dependencia' => $this->request->getPost('otra_dependencia'),
+                'cat_rol' => 3
             ]);
 
-            // Enviar el correo
-            $this->enviarCorreoConfirmacion($this->request->getPost('email'), $this->request->getPost('nombre'), $this->request->getPost('password'));
+            // Enviar el             
+        $this->enviarCorreoConfirmacion($this->request->getPost('email'), $this->request->getPost('nombre'), $this->request->getPost('password'), $this->request->getPost('usuario'));
 
-            return redirect()->to(base_url());
-        }
-    } catch (\Exception $e) {
-        // Mostrar cualquier error relacionado con la base de datos
-        echo 'Error al insertar: ' . $e->getMessage();
+            // En tu controlador, después de registrar el usuario:
+               // session()->setFlashdata('success', 'Registro exitoso, puede revisar la bandeja de entrada del correo que registró para continuar con la inscripción a los cursos y talleres. Gracias.');
+            return redirect()->to('/usuarios/login'); // Redirige a la página de inicio de sesión o donde desees
+        }    
     }
-}
 
+/*public function insertarProf()
+    {        
+
+            $hash = password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
+
+            // Guardar los datos
+            $this->usuarios->save([
+                'usuario' => $this->request->getPost('usuario'),
+                //'email' => $this->request->getPost('email'),
+                'nombre' => $this->request->getPost('nombre'),
+                'ap_paterno' => $this->request->getPost('ap_paterno'),
+                'ap_materno' => $this->request->getPost('ap_materno'),
+                'password' => $hash,
+                'cat_rol' => 2
+                ]);
+
+            return redirect()->to(base_url());            
+    }*/
 
     // Método para enviar el correo
-    private function enviarCorreoConfirmacion($correoDestino, $nombre, $password)
+    private function enviarCorreoConfirmacion($correoDestino, $nombre, $password, $usuario)
     {
         // Cargar el servicio de email
         $email = \Config\Services::email();
 
         // Configurar los detalles del correo
         $email->setTo($correoDestino);
-        $email->setFrom('luis.saldivar19@gmail.com', 'Cursos y talleres del CETA');
+        $email->setFrom('noreply.ceta@zaragoza.unam.mx', 'Cursos y talleres del CETA');
         $email->setSubject('Confirmación de Registro');
         
         // El cuerpo del mensaje
         $mensaje = "
-            Hola $nombre, gracias por registrarte
-            Tu contraseña es: $password
-            Por favor, haga clic en el siguiente enlace para registrar el o los cursos:
-            <p><a href='". base_url() ."/reportes_cursos/public'>Confirmar mi cuenta</a>
-        ";
+            <div style='font-size: 16px; line-height: 1.5;'>
+                Estimado(a) <strong>$nombre</strong>, <br><br>
+
+                Este es un correo de confirmación. 
+                Gracias por concluir su registro a nuestro sistema de inscripciones. <br><br>
+
+                Los datos con los que se registró y con los que puede entrar al sistema son:<br><br>
+
+                <strong>Usuario:</strong> $usuario<br>
+                <strong>Contraseña:</strong> $password<br><br>
+        
+                <em>Conservela en un lugar seguro para no olvidarla.</em><br><br>
+
+                Ya puede inscribirse a nuestros cursos y talleres accediendo a nuestro sitio web o desde el siguiente enlace:<br><br>
+
+                <p><a href='https://ocelote.zaragoza.unam.mx/~registrov/ceta/' style='font-size: 18px; color: #007bff; text-decoration: none;'>
+                <strong>Confirmar mi cuenta</strong></a></p>
+            </div>";
+
         $email->setMessage($mensaje);
 
-        // Enviar el correo
         if ($email->send()) {
             // Opcionalmente puedes redirigir a una página de éxito o mostrar un mensaje
-            echo "Correo de confirmación enviado correctamente.";
+            session()->setFlashdata('success', 'Correo de confirmación enviado correctamente.');
         } else {
             // Mostrar errores en caso de fallo
-            $data = $email->printDebugger(['headers']);
-            print_r($data);
+            log_message('error', 'Error al enviar el correo: ' . print_r($data, true));
+            session()->setFlashdata('error', 'Hubo un problema al enviar el correo de confirmación. Inténtalo de nuevo más tarde.');
         }
     }
-
 
     public function login(){
 
         echo view('login');
-
     }
 
     public function valida(){
@@ -224,33 +247,48 @@ class Usuarios extends BaseController
                     $datosSesion = [
                         'id_usuario' => $datosUsuario['id_user'],
                         'nombre' => $datosUsuario['nombre'],
-                        'c_rol' => $datosUsuario['cat_rol'],                        
+                        'c_rol' => $datosUsuario['cat_rol'], // Rol del usuario (Administrador, Profesor, Usuario)
                     ];
 
-                    if ($datosSesion['c_rol'] == '2') {
-                    $session = session();
-                    $session->set($datosSesion);                    
-                        return redirect()->to(base_url() . '/principal');
-                        
-                    } elseif ($datosSesion['c_rol'] == null) {
+                        // Iniciamos la sesión
                         $session = session();
                         $session->set($datosSesion);
-                        return redirect()->to(base_url() . '/principal');
-                    }
-                    
+
+                        // Redirección según el rol del usuario
+                            switch ($datosSesion['c_rol']) {
+                                case 1: // Administrador
+                                    return redirect()->to(base_url() . '/principal');  // Vista para el administrador
+                                    break;
+
+                                case 2: // Profesor
+                                    return redirect()->to(base_url() . '/relacion');  // Vista para el profesor
+                                    break;
+
+                                case 3: // Usuario
+                                    return redirect()->to(base_url() . '/relacion');  // Vista para el usuario normal
+                                    break;
+
+                                default:
+                                // Si no tiene rol, redirigir a una página de error o logout
+                                return redirect()->to(base_url() . '/logout');
+                            }
                 } else {
+                    // Contraseña incorrecta
                     $data['error'] = "Contraseña incorrecta.";  
-                    echo view('login', $data);
+                        echo view('login', $data);
                 }
             } else {
+                // Usuario no existe
                 $data['error'] = "El usuario no existe.";
-                echo view('login', $data);
+                    echo view('login', $data);
             }
         } else {
+            // Error en la validación de formularios
             $data = ['validation' => $this->validator];
-            echo view('login', $data);
+                echo view('login', $data);
         }
     }
+
 
     public function logout(){
         $session = session();

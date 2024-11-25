@@ -1,0 +1,431 @@
+CRITICAL - 2024-11-21 09:13:31 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 10:32:05 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 10:33:26 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(71): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 10:39:55 --> Undefined variable $modas
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\nuevo.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/nuevo', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(72): view('cursos/nuevo', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 10:56:33 --> Undefined variable $activo
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->nuevo()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-21 11:24:24 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->espera()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-21 11:41:00 --> Undefined property: App\Controllers\Relacion::$modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#2 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#3 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-21 13:02:12 --> Undefined array key "id_mod"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\relacion\relacion.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('relacion/relaci...', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Relacion.php(74): view('relacion/relaci...', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Relacion->index()
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacion))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:23:13 --> Undefined variable $modalidades
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(112): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:30:14 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:33:18 --> Undefined array key "nom_carrera"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:47:10 --> Undefined array key "nom_carrera"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:47:18 --> Undefined array key "nom_carrera"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:53:36 --> Undefined array key "id_user_seleccionado"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 13:58:45 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 14:02:07 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 14:05:47 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 14:07:06 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 15:01:37 --> Undefined variable $dato
+#0 C:\xampp\htdocs\reportes_cursos\app\Views\cursos\editar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\reportes_cursos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\reportes_cursos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\reportes_cursos\system\Common.php(1089): CodeIgniter\View\View->render('cursos/editar', Array, true)
+#4 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(115): view('cursos/editar', Array)
+#5 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->editar('31')
+#6 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#7 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-21 15:41:00 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:41:22 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:41:32 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:44:08 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:44:17 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:44:23 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '1', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:44:31 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '1', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:44:38 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:44:48 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:47:04 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:48:30 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:48:40 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '1', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-11-21 15:49:24 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «»
+LINE 1: ...ba ', &quot;fk_id_modalidad&quot; = '2', &quot;fk_id_tipo_act&quot; = '', &quot;fecha...
+                                                             ^ in C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\reportes_cursos\system\Database\Postgre\Connection.php(135): pg_query(Resource id #127, 'UPDATE "registr...')
+#2 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "registr...')
+#3 C:\xampp\htdocs\reportes_cursos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "registr...')
+#4 C:\xampp\htdocs\reportes_cursos\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE "registr...', Array, false)
+#5 C:\xampp\htdocs\reportes_cursos\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\reportes_cursos\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\reportes_cursos\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\reportes_cursos\app\Controllers\Cursos.php(128): CodeIgniter\Model->update('31', Array)
+#9 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(832): App\Controllers\Cursos->actualizar()
+#10 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos))
+#11 C:\xampp\htdocs\reportes_cursos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\reportes_cursos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

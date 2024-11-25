@@ -13,6 +13,7 @@
 </div>
 </div>
 <script src="<?php echo base_url(); ?>/js/bootstrap.bundle.min.js" ></script>
+<script src="<?php echo base_url(); ?>/js/sweetalert2@11.js" ></script>
 <script src="<?php echo base_url(); ?>/js/scripts.js"></script>
 <script src="<?php echo base_url(); ?>/js/simple-datatables@latest.js" ></script>
 <script src="<?php echo base_url(); ?>/js/datatables-simple-demo.js"></script>
@@ -30,23 +31,116 @@
     });
 </script>
 
+<script>
+    $(document).ready(function(){
+        $('.inscribirCurso').click(function(e){
+            e.preventDefault(); // Evitar recarga de página
+            
+            var button = $(this);
+            var idCurso = button.data('idcurso');
+            var cursoNombre = button.data('curso-nombre');
+
+            // Mostrar el modal de confirmación con SweetAlert
+            Swal.fire({
+                title: 'Confirmar inscripción',
+                text: '¿Desea confirmar la inscripción al curso "' + cursoNombre + '"?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Sí',
+                cancelButtonText: 'No'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Si el usuario confirma, procede con la inscripción
+                    button.prop('disabled', true);
+
+                    $.ajax({
+                        url: '<?php echo base_url(); ?>/relacion/insertar',
+                        method: 'POST',
+                        data: {
+                            nombre_curso: idCurso,
+                            // Otros campos adicionales si es necesario
+                        },
+                        success: function(response) {
+                            if (response.success) {
+                                // Cambiar el botón a "Inscrito" y mantenerlo deshabilitado
+                                button.removeClass('btn-success inscribirCurso')
+                                      .addClass('btn-secondary')
+                                      .text('Inscrito');
+                            } else {
+                                Swal.fire('Error', response.message || 'Ocurrió un error al inscribirse', 'error');
+                                button.prop('disabled', false); // Volver a habilitar si hay un error
+                            }
+                        },
+                        error: function() {
+                            Swal.fire('Error', 'Ocurrió un error al intentar inscribirse', 'error');
+                            button.prop('disabled', false); // Volver a habilitar si hay un error
+                        }
+                    });
+                } else {
+                    // Si el usuario selecciona "No"
+                    Swal.fire('Cancelado', 'Inscripción cancelada', 'info');
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('.listaCurso').click(function(e){
+            e.preventDefault(); // Evitar recarga de página
+            
+            var button = $(this);
+            var idCurso = button.data('idcur');
+            var cursoNombre = button.data('curso-nombre');
+
+            // Mostrar el modal de confirmación con SweetAlert
+            Swal.fire({
+                title: 'Confirmar ingreso a lista de espera',
+                text: '¿Desea confirmar el ingreso a la lista de espera al curso "' + cursoNombre + '"?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Sí',
+                cancelButtonText: 'No'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Si el usuario confirma, procede con la inscripción
+                    button.prop('disabled', true);
+
+                    $.ajax({
+                        url: '<?php echo base_url(); ?>/relacion/insertar',
+                        method: 'POST',
+                        data: {
+                            nombre_curso: idCurso,
+                            // Otros campos adicionales si es necesario
+                        },
+                        success: function(response) {
+                            if (response.success) {
+                                // Cambiar el botón a "Inscrito" y mantenerlo deshabilitado
+                                button.removeClass('btn-success listaCurso')
+                                      .addClass('btn-secondary')
+                                      .text('En lista de espera');
+                            } else {
+                                Swal.fire('Error', response.message || 'Ocurrió un error al inscribirse', 'error');
+                                button.prop('disabled', false); // Volver a habilitar si hay un error
+                            }
+                        },
+                        error: function() {
+                            Swal.fire('Error', 'Ocurrió un error al intentar inscribirse', 'error');
+                            button.prop('disabled', false); // Volver a habilitar si hay un error
+                        }
+                    });
+                } else {
+                    // Si el usuario selecciona "No"
+                    Swal.fire('Cancelado', 'Inscripción cancelada', 'info');
+                }
+            });
+        });
+    });
+</script>
+
+
 </body>
 
 </html>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script>
-$(document).ready(function(){
-    $('#id_usuario').on('change',function(){
-        var id_usu = $('#id_usuario').val();
-        $.ajax({
-            type: "POST",
-            url: "<?php echo base_url().'/reportes/obtenerNombres'; ?>",
-            data: "id_motivo=" + id_usu,
-            success: function (html) {
-                $("#nombre_motivo").html(html);
-            }
-        });
-    });
-});
-</script>

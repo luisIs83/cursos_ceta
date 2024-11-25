@@ -25,11 +25,14 @@ class UsuariosModel extends Model
                                 'activo',
                                 'num_celular', 
                                 'usuario',
-                                'cat_rol'    
+                                'otra_categoria',
+                                'otra_carrera',
+                                'otra_dependencia',
+                                'cat_rol'
                             ];
 
     protected $useTimestamps = false;
-    protected $createdField  = 'created_at';
+    protected $createdField  = 'fecha_alta';
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
 

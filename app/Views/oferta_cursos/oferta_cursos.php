@@ -10,6 +10,13 @@
         </div>
             <div class="card mb-4">
                 <div class="card-body">
+
+                    <?php                   
+                    usort($datos, function($a, $b) {
+                        return strcmp($a['nom_curso'], $b['nom_curso']);
+                    });
+                    ?>
+
                     <table id="" class="table table-primary table-striped">
                         <thead>
                             <tr>
